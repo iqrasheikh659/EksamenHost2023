@@ -16,19 +16,21 @@
 
     <header>
         <span>
-            <!-- Nettsidens logo. -->
-            <a href="http://127.0.0.1:5500/index.html" id="logo">
-            <img src="img/logo1.png" alt="Bilde av nettsidens logo">
-            </a>
+            <div class="Logo">
+                <!-- Nettsidens logo. -->
+                <a href="http://127.0.0.1:5500/index.html" id="logo">
+                <img src="img/logo1.png" alt="Bilde av nettsidens logo">
+                </a>
+            </div>
         </span>
         <!-- Opprett en navigasjonsseksjon. -->
         <nav>
-            <ul>
+            <ul class="Navigasjonsmeny_ikoner">
                 <!--Oppretter listeelementer-->
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portofolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="ikon" id="ikon_link_home">Home</a></li>
+                <li><a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a></li>
+                <li><a href="#" class="ikon" id="ikon_link_about">About</a></li>
+                <li><a href="#" class="ikon" id="ikon_link_contatc">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -84,9 +86,13 @@
 <!--Del 5 - newsletter-->
     <section>
         <h3>Sign up for our newsletter</h3>
+        <label for="input"></label>
+        <input type="text" placeholder="Iqra@hotmail.com" id="input"> 
+        <button id="knapp">Sign me up!</button>
         <a href="#"></a>
         <a href="#"></a>
     </section>
+</main>
 
 <!--Footer-->
 <footer class="footer">
@@ -104,4 +110,3 @@
 
 
 
-</main>
