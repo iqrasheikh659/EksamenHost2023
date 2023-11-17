@@ -1,28 +1,31 @@
-.Logo{
-    margin-right: auto;
+/**Navigasjonsmeny**/
+
+.nettsidens_logo{
+    width: 5rem;
+    text-align: center;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.Navigasjonsmeny_ikoner {
-    list-style: none;
-    display: flex;
-    text-decoration: none;
-    color: black;
+    flex-direction: column;
+    text-align: center;
 }
 
 .ikon {
     margin: 10px;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.Navigasjonsmeny_ikoner {
+    list-style: none;
 }
 
 #ikon_link_home{
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 #ikon_link_portofolio{
@@ -39,4 +42,63 @@ header {
     background-color: #e6bd43;
     padding: 10px;
 }
+/**Navogasjonsmenu**/
 
+
+
+/**DEL 1 - Read more about our services**/
+.bilde_compelingheadline{
+    width: 100%;
+}
+
+.tekst_del1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.info_del1{
+        position: absolute;
+        top: 35%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+.service_knapp{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e6bd43;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    color: black;
+}
+
+
+
+
+/** DEL 2 - Enganging subheading**/
+.info_del2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info_del3{
+    background-color: #e6bd43;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+bilde_info_del3{
+    
+}
