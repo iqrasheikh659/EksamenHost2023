@@ -14,7 +14,7 @@ header {
 .ikon {
     margin: 10px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     list-style: none;
 }
 
@@ -47,7 +47,7 @@ header {
 
 
 /**DEL 1 - Read more about our services**/
-.bilde_compelingheadline{
+.bilde_kontor{
     width: 100%;
 }
 
@@ -55,7 +55,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 
@@ -64,7 +64,7 @@ header {
         top: 35%;
         left: 52%;
         transform: translate(-50%, -50%);
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: sans-serif;
     }
     
 
@@ -75,7 +75,7 @@ header {
     transform: translate(-50%, -50%);
     background-color: #e6bd43;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     list-style: none;
     color: black;
 }
@@ -88,7 +88,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 .info_del3{
@@ -96,9 +96,126 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
-bilde_info_del3{
-    
+.our_services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
 }
+
+.branding{
+    font-weight: bold;
+
+
+}
+#input{
+    padding: 0.5rem;
+
+
+}
+#knapp{
+    background-color:#e6bd43;
+    font-family: sans-serif;
+    padding: 0.5rem;
+}
+
+
+.newsletter{
+    background-color: lightgray;
+    padding: 1.5rem;
+}
+
+.footer{
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.logo_footer{
+    width: 5rem;
+    text-align: center;
+}
+
+.tekst_footer{
+    color: white;
+}
+
+
+
+
+/**Portofolio.html**/
+
+.portofolio{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.explore_tittel{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.explore_button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#explore{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+#explore_development{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.branding_tittel{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 3rem;
+}
+
+.bilde_portofolio{
+    display: grid;
+    justify-content: end;
+    align-items: stretch;
+    width: 90%;
+    justify-items: end;
+}
+
+.info_tekst_portofolio{
+    margin-right: 10rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
