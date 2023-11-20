@@ -1,117 +1,164 @@
 <!DOCTYPE html>
 <html lang="zxx">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Iqra Sheikh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Iqra Sheikh" />
     <!-- Inkluderer ikon-stiler for å bruke ikoner fra FontAwesome -->
-    <link href="css/font/css/fontawesome.css" rel="stylesheet">
-    <link href="css/font/css/brands.css" rel="stylesheet">
-    <link href="css/font/css/solid.css" rel="stylesheet">
-    <!--Inkluderer eget stilark for nettstedet-->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Compeling headline</title>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/font/css/fontawesome.css" rel="stylesheet" />
+    <link href="css/font/css/brands.css" rel="stylesheet" />
+    <link href="css/font/css/solid.css" rel="stylesheet" />
 
+    <!--Inkluderer eget stilark for nettstedet-->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Compeling headline</title>
+  </head>
+  <body>
     <header>
-        <div class="Logo">
-            <span>
-                <!-- Nettsidens logo. -->
-                <a href="http://127.0.0.1:5500/index.html" id="logo">
-                <img src="img/logo1.png" alt="Bilde av nettsidens logo" class="nettsidens_logo">
-                </a>
-            </span>
-        </div>
-    <div class="ikon"> 
+      <div class="Logo">
+        <span>
+          <!-- Nettsidens logo. -->
+          <a href="http://127.0.0.1:5500/index.html" id="logo">
+            <img
+              src="img/logo1.png"
+              alt="Bilde av nettsidens logo"
+              class="nettsidens_logo"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="ikon">
         <!-- Opprett en navigasjonsseksjon. -->
-            <ul class="Navigasjonsmeny_ikoner">
-                <!--Oppretter listeelementer-->
-                <li><a href="#" class="ikon" id="ikon_link_home">Home</a></li>
-                <li><a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a></li>
-                <li><a href="#" class="ikon" id="ikon_link_about">About</a></li>
-                <li><a href="#" class="ikon" id="ikon_link_contatc">Contact</a></li>
-            </ul>
-        </div>
+        <ul class="Navigasjonsmeny_ikoner">
+          <!--Oppretter listeelementer-->
+          <li><a href="#" class="ikon" id="ikon_link_home">Home</a></li>
+          <li>
+            <a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a>
+          </li>
+          <li><a href="#" class="ikon" id="ikon_link_about">About</a></li>
+          <li><a href="#" class="ikon" id="ikon_link_contatc">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
-<!--DEL 1 - Read more about our services-->
+    <!--DEL 1 - Read more about our services-->
     <main>
-        <section>
-            <h1 class="tekst_del1">Compeling headline</h1> 
-            <img src="img/kontor_bilde.jpeg" alt="bakgrunnsbilde for compeling headline" class="bilde_kontor">
-            <p class= "info_del1" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            t enim ad minim veniam, quis nostrud exercitation.</p>
-            <a href="#" class="service_knapp">Read more about our services</a>
-        </section>
+      <video autoplay muted loop id="myVideo">
+        <source src="/img/mountains.mp4" type="video/mp4" />
+      </video>
+      <section class="bakgrunnsbildet_tekst">
+        <h1 class="tekst_del1">Compeling headline</h1>
+        <p class="info_del1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. t enim ad
+          minim veniam, quis nostrud exercitation.
+        </p>
+        <a href="#" class="service_knapp">Read more about our services</a>
+      </section>
 
-<!--DEL 2 - Enganging subheading-->
-    <section class="info_del2">
-        <h2>Enganging subheading. What can you help your visitors with</h2> <!--SKAL JEG BRUKE H2 HER-->
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+      <!--DEL 2 - Enganging subheading-->
+      <section class="info_del2">
+        <h2>Enganging subheading. What can you help your visitors with</h2>
+        <!--SKAL JEG BRUKE H2 HER-->
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+      </section>
 
-    <!--DEL 3 - About our company-->
-    <div class="info_del3">
-        <img src="https://placehold.co/400" alt="Bilde fra placehold" class="bilde_portofolio">
+      <!--DEL 3 - About our company-->
+      <div class="info_del3">
+        <img
+          src="https://placehold.co/400"
+          alt="Bilde fra placehold"
+          class="bilde_portofolio"
+        />
         <p>About our company</p>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+          aliquam quaerat voluptatem.
+        </p>
         <a href="#">Read more about us</a>
-    </div>
+      </div>
 
-    <!--DEL 4 - Our services-->
-    <div class="our_services">
-    <!--Branding 1-->
+      <!--DEL 4 - Our services-->
+      <div class="our_services">
+        <!--Branding 1-->
         <i class="fa-solid fa-users"></i>
         <p class="branding">Branding</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
-    <!--Branding 2-->
-    <div class="our_services">
+        <p class="tekst_branding">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      <!--Branding 2-->
+      <div class="our_services">
         <i class="fa-solid fa-cloud-arrow-up"></i>
         <p class="branding">Branding</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
+        <p class="tekst_branding">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
 
-    <!--Branding 3-->
-    <div class="our_services">
+      <!--Branding 3-->
+      <div class="our_services">
         <i class="fa-solid fa-code"></i>
         <p class="branding">Branding</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
+        <p class="tekst_branding">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
 
-<!--Branding 4-->
-    <div class="our_services">
+      <!--Branding 4-->
+      <div class="our_services">
         <i class="fa-solid fa-wifi"></i>
         <p class="branding">Branding</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    </div>
+        <p class="tekst_branding">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
 
-<!--Del 5 - newsletter-->
-    <section class="newsletter">
+      <!--Del 5 - newsletter-->
+      <section class="newsletter">
         <h3>Sign up for our newsletter</h3>
         <label for="input"></label>
-        <input type="text" placeholder="Iqra@hotmail.com" id="input"> 
+        <input type="text" placeholder="Iqra@hotmail.com" id="input" />
         <button id="knapp">Sign me up!</button>
         <a href="#"></a>
         <a href="#"></a>
-    </section>
-</main>
+      </section>
+    </main>
 
-<!--Footer-->
-<footer class="footer">
-    <div>
-        <img src="img/logo1.png" alt="Bilde av nettsidens logo" class="logo_footer">
+    <!--Footer-->
+    <footer class="footer">
+      <div>
+        <img
+          src="img/logo1.png"
+          alt="Bilde av nettsidens logo"
+          class="logo_footer"
+        />
         <p>Copyright companyname 2023</p>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
-    </div>
-</footer>
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
-
-
-
