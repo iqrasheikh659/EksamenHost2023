@@ -29,7 +29,7 @@ header {
   text-align: center;
 }
 
-.moutains_video{
+.myVideo{
   display: none;
 }
 
@@ -48,6 +48,7 @@ header {
   padding: 10px;
 }
 
+
 /**Navogasjonsmenu**/
 
 /**DEL 1 - Read more about our services**/
@@ -60,11 +61,12 @@ header {
 .bilde_kontor_index{
   width: 100%;
   opacity: 0.5;
-  margin-top: -10rem;
   height: 25rem
 }
 
 .tekst_del1 {
+  position: relative;
+  top: 9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,13 +74,8 @@ header {
 
 .tekst_del2{
   position: relative;
-  top: -16rem;
+  top: -17rem;
   text-align: center;
-}
-
-.bakgrunnsbildet_tekst {
-  background-image: url("/img/kontor_bilde.jpeg");
-  background-repeat: no-repeat;
 }
 
 .service_knapp{
@@ -88,7 +85,6 @@ header {
     text-decoration: none;
     position: relative;
     top: -16rem;
-    margin-left: 13rem
 }
 
 /** DEL 2 - Enganging subheading**/
@@ -112,8 +108,8 @@ header {
   text-decoration: none;
   border-style: solid;
   width: 8rem;
-  margin-left: 18rem;
 }
+
 .our_services {
   display: flex;
   flex-direction: column;
