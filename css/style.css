@@ -29,6 +29,10 @@ header {
   text-align: center;
 }
 
+.moutains_video{
+  display: none;
+}
+
 .ikon {
   text-decoration: none;
   font-weight: bold;
@@ -47,15 +51,28 @@ header {
 /**Navogasjonsmenu**/
 
 /**DEL 1 - Read more about our services**/
-.bilde_kontor {
+.bilde_kontor_portfolio {
   width: 100%;
   opacity: 0.5;
   margin-top: 2rem;
 }
 
+.bilde_kontor_index{
+  width: 100%;
+  opacity: 0.5;
+  margin-top: -10rem;
+  height: 25rem
+}
+
 .tekst_del1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.tekst_del2{
+  position: relative;
+  top: -16rem;
   text-align: center;
 }
 
@@ -64,15 +81,14 @@ header {
   background-repeat: no-repeat;
 }
 
-.service_knapp {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #e6bd43;
-  padding: 10px;
-  list-style: none;
-  color: black;
+.service_knapp{
+    color: black;
+    background-color: #e6bd43;
+    padding: 1rem;
+    text-decoration: none;
+    position: relative;
+    top: -16rem;
+    margin-left: 13rem
 }
 
 /** DEL 2 - Enganging subheading**/
@@ -80,6 +96,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: -5rem
 }
 
 .info_del3 {
@@ -87,12 +104,21 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 3rem
 }
 
+.readmore_knapp{
+  color: black;
+  text-decoration: none;
+  border-style: solid;
+  width: 8rem;
+  margin-left: 18rem;
+}
 .our_services {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 3rem;
 }
 
 .tekst_branding {
@@ -137,7 +163,7 @@ header {
 
 .portofolio {
   position: absolute;
-  top: 35%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -188,25 +214,26 @@ header {
   padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 200px;
 }
 
 .info_tekst_portofolio {
-  margin-right: 10rem;
-  font-weight: bold;
+  font-size: 10px
 }
 
 .bilde_kontor_about {
   width: 100%;
-  height: 43rem;
+  height: 47rem;
+  margin-top: 2rem;
 }
 
 .about_company_info {
   background-color: rgba(211, 211, 211, 0.5);
   position: absolute;
-  top: 60%;
+  top: 76%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 #aboutus_button {
@@ -214,6 +241,7 @@ header {
   font-weight: bold;
   background-color: #e6bd43;
   padding: 10px;
+  margin-left: 1rem
 }
 
 .kunder {
@@ -253,9 +281,6 @@ header {
 
 .contact_information {
   font-weight: bold;
-}
-
-.contact_us_tekst {
 }
 
 .adresse {

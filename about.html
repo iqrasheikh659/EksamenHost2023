@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Iqra Sheikh" />
+    <!--Link for googlefonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Inkluderer ikon-stiler for å bruke ikoner fra FontAwesome -->
     <link href="css/font/css/fontawesome.css" rel="stylesheet" />
     <link href="css/font/css/brands.css" rel="stylesheet" />
@@ -12,11 +18,12 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Compeling headline</title>
   </head>
+
   <body>
     <header>
+      <!-- Nettsidens logo. -->
       <div class="Logo">
         <span>
-          <!-- Nettsidens logo. -->
           <a href="http://127.0.0.1:5500/index.html" id="logo">
             <img
               src="img/logo1.png"
@@ -27,18 +34,15 @@
         </span>
       </div>
 
-      <div class="ikon">
-        <!-- Opprett en navigasjonsseksjon. -->
-        <ul class="Navigasjonsmeny_ikoner">
-          <!--Oppretter listeelementer-->
-          <li><a href="#" class="ikon" id="ikon_link_home">Home</a></li>
-          <li>
-            <a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a>
-          </li>
-          <li><a href="#" class="ikon" id="ikon_link_about">About</a></li>
-          <li><a href="#" class="ikon" id="ikon_link_contatc">Contact</a></li>
-        </ul>
-      </div>
+      <!-- Opprett en navigasjonsseksjon. -->
+      <section class="meny">
+        <a href="#" class="ikon" id="ikon_link_home">Home</a>
+        <a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a>
+        <a href="#" class="ikon" id="ikon_link_about">About</a>
+        <span class="ikon_link">
+          <a href="#" class="ikon" id="ikon_link_contact">Contact</a>
+        </span>
+      </section>
     </header>
 
     <main>
@@ -57,10 +61,6 @@
           sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
           aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
           qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam
         </p>
         <button id="aboutus_button">Get in touch with us</button>
       </section>
@@ -172,18 +172,19 @@
       </iframe>
     </main>
 
-    <footer class="footer">
-      <div>
-        <img
-          src="img/logo1.png"
-          alt="Bilde av nettsidens logo"
-          class="logo_footer"
-        />
-        <p class="tekst_footer">Copyright companyname 2023</p>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-      </div>
-    </footer>
-  </body>
+<!--Footer-->
+<footer class="footer">
+  <div>
+    <img
+      src="img/logo1.png"
+      alt="Bilde av nettsidens logo"
+      class="logo_footer"
+    />
+    <p class="tekst_footer">Copyright companyname 2023</p>
+    <i class="fa-brands fa-facebook footerIkoner"></i>
+    <i class="fa-brands fa-instagram footerIkoner"></i>
+    <i class="fa-brands fa-linkedin footerIkoner"></i>
+  </div>
+</footer>
+</body>
 </html>
