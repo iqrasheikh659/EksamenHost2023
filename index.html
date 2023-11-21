@@ -6,7 +6,7 @@
     <meta name="author" content="Iqra Sheikh" />
     <!--Link for googlefonts-->
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800"
       rel="stylesheet"
       type="text/css"
     />
@@ -22,6 +22,7 @@
     <header>
 
       <!-- Nettsidens logo. -->
+      <section class="header">
       <div class="Logo">
         <span>
           <a href="index.html" id="logo">
@@ -33,7 +34,6 @@
           </a>
         </span>
       </div>
-
       <!-- Opprett en navigasjonsseksjon. -->
       <section class="meny">
         <a href="/index.html" class="ikon" id="ikon_link_home">Home</a>
@@ -44,18 +44,32 @@
         </span>
       </section>
     </header>
-
+  </section>
     <!--DEL 1 - Read more about our services-->
     <main>
+
+
     <!--Video-->
+    <section class="TekstMedVideo">
       <video autoplay muted loop class="myVideo">
         <source
           src="/img/mountains.mp4"
           type="video/mp4"
         />
       </video>
+      <div class="TekstContainer">
+        <h1 class="Overskrift">Compeling headline</h1>
+        <p class="tekst_del2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+          
+        </p>
+        <a href="about.html" class="service_knapp">Read more about our services</a>
+      </div>
+    </section>
     <!--Video-->
 
+    <!--Bildet-->
       <section class="TekstOverBildet">
         <img
           src="img/kontor_bilde.jpeg"
@@ -65,9 +79,9 @@
         <div class="TekstContainer">
         <h1 class="Overskrift">Compeling headline</h1>
         <p class="tekst_del2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. t enim ad
-          minim veniam, quis nostrud exercitation.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+          
         </p>
         <a href="about.html" class="service_knapp">Read more about our services</a>
       </div>
@@ -86,27 +100,24 @@
 
       <!--DEL 3 - About our company-->
       <section class="info_del3">
+        <article>
         <img
           src="https://placehold.co/400"
           alt="Bilde fra placehold"
           class="bilde_portofolio"
         />
-        <p>About our company</p>
+        <p class="About_our_company">About our company</p>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem.
         </p>
         <a href="about.html" class="readmore_knapp">Read more about us</a>
+      </article>
       </section>
 
       <!--DEL 4 - Our services-->
+      <section class="Branding">
       <div class="our_services">
         <!--Branding 1-->
         <i class="fa-solid fa-users"></i>
@@ -145,21 +156,24 @@
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
+    </section>
 
       <!--Del 5 - newsletter-->
       <section class="newsletter">
-        <h3>Sign up for our newsletter</h3>
+        <h3 class="newsletter_tekst">Sign up for our newsletter</h3>
+      <section class="newsletter_knapp">
         <label for="input"></label>
         <input type="text" placeholder="Iqra@hotmail.com" id="input" />
-        <button id="knapp">Sign me up!</button>
+        <button id="newsletter_knapp">Sign me up!</button>
         <a href="#"></a>
         <a href="#"></a>
       </section>
+    </section>
     </main>
 
    <!--Footer-->
    <footer class="footer">
-    <div>
+    <div class="Sosiale_medier">
       <a href="index.html" id="logo">
       <img
         src="img/logo1.png"
@@ -168,6 +182,7 @@
       />
     </a>
       <p class="tekst_footer">Copyright companyname 2023</p>
+      <section class="Sosiale_medier_linker">
       <a href="https://www.facebook.com/" target="_blank">
       <i class="fa-brands fa-facebook footerIkoner"></i>
     </a>
@@ -177,6 +192,7 @@
     <a href="https://no.linkedin.com/" target="_blank">
       <i class="fa-brands fa-linkedin footerIkoner"></i>
       </a>
+    </section>
     </div>
   </footer>
 </body>

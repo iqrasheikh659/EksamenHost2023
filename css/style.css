@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
+.TekstMedVideo{
+  display: none;
+}
 /**Gjelder alle sidene**/
 body {
   margin: 0;
@@ -19,7 +22,6 @@ header {
 
 .ikon {
   text-decoration: none;
-  font-weight: bold;
   color: black;
 }
 
@@ -88,7 +90,7 @@ header {
 
 .Overskrift {
   position: absolute;
-  top: 8%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -107,10 +109,10 @@ header {
 .service_knapp{
     color: black;
     background-color: #e6bd43;
-    padding: 0.5rem;
+    padding: 1rem;
     text-decoration: none;
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 3rem;
@@ -159,15 +161,16 @@ header {
 .branding {
   font-weight: bold;
 }
+
+
 /**DEL 3 - About our company**/
 
 /**-Del 5 - newsletter**/
 #input {
   padding: 0.5rem;
 }
-#knapp {
+#newsletter_knapp {
   background-color: #e6bd43;
-
   padding: 0.5rem;
 }
 
@@ -267,6 +270,7 @@ hr{
 
 /**ABOUT**/
 
+/**DEL 1 - bakgrunnsbilde & tekst**/
 .Bakgrunn_bildeinfo{
   background-color: #ffffff;
   border: 1px transparent;
@@ -274,8 +278,6 @@ hr{
   margin-top: 1rem;
   position: relative;
   text-align:center;
-
-
 }
 
 .aboutcompany_info{
@@ -295,78 +297,74 @@ hr{
   padding: 10px;
   margin-left: 1rem
 }
+/**DEL 1 - bakgrunnsbilde & tekst**/
 
-
-
-
-
-
-
-
-
-
-
-
-.about_company_info {
-  background-color: rgba(211, 211, 211, 0.5);
-  position: absolute;
-  top: 76%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-}
-
+/**Del 5 - clients**/
 
 .kunder {
   background-color: #e6bd43;
   display: flex;
   flex-direction: column;
   text-align: center;
-
   display: block;
 }
 
 .logo_klient {
   width: 10rem;
 }
+/**Del 5 - clients**/
 
-.kunder_tekst {
-  font-weight: bold;
+/**Contact us**/
+.contactus_info {
+  background-color: rgb(227, 225, 225);
 }
-
-#name_contactus {
-  padding: 0.5rem;
-}
-
-#subject_contactus {
-  padding: 0.5rem;
-}
-
-.contact_us {
-  font-weight: bold;
-
-  text-align: center;
-}
-
 .send_us_a_message {
   font-weight: bold;
 }
+/**Contact us**/
 
+
+/**Name**/
+#name_contactus {
+  padding: 0.5rem;
+}
+/**Name**/
+
+/**Subject**/
+#subject_contactus {
+  padding: 0.5rem;
+}
+/**Subject**/
+
+/**Message**/
+#knapp_message {
+  margin-top: 1rem;
+  background-color: #e6bd43;
+  padding: 0.5rem;
+}
+/**Message**/
+
+/**Contact Information**/
 .contact_information {
   font-weight: bold;
 }
+/**Contact Information**/
 
+/**Adresse**/
 .adresse {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+/**Adresse**/
 
+/**Nummer**/
 .tlf_nummer {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+/**Nummer**/
 
 .tlfnummer_tekst,
 .adresse_tekst,
@@ -374,22 +372,130 @@ hr{
   margin-left: 1rem;
 }
 
-#knapp_message {
-  margin-top: 1rem;
-  background-color: #e6bd43;
 
-  padding: 0.5rem;
+
+
+/**DESKTOP**/
+@media only screen and (min-width: 992px) {
+
+/**Gjelder alle sidene**/
+.meny{
+    display: flex;
+    flex-direction: row;
 }
 
-.contactus_info {
-  background-color: rgb(227, 225, 225);
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.nettsidens_logo{
+  margin: 1rem;
+}
+
+#ikon_link_home{
+  font-weight: bold;
+  text-decoration-line: underline;
+
+}
+
+#ikon_link_contact{
+  font-weight: bold;
 }
 
 
-
-@media only screen and (min-width: 600px) {
-  .bakgrunnsbildet_tekst {
-    background-clip: url("/img/mountains.mp4");
+.myVideo{
     background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 10%;
   }
+
+.TekstOverBildet {
+  display: none;
 }
+
+.TekstMedVideo {
+  display: block;
+}
+
+.tekst_del2{
+  top: 40%;
+}
+
+.Overskrift {
+  top: 22%;
+  font-size: 3rem
+}
+.service_knapp{
+  top: 55%;
+  font-weight: 900;
+  padding: 1rem;
+}
+
+.service_knapp:focus{
+  background-color: black;
+  color: #e6bd43;
+}
+
+
+
+.About_our_company{
+  font-weight: 900;
+  margin-top: 3rem;
+}
+
+.bilde_portofolio{
+  width: 400px;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.readmore_knapp{
+  padding: 1rem;
+}
+
+.readmore_knapp:focus{
+  background-color: black;
+  color: #e6bd43;
+}
+
+.Branding{
+  display: flex;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter_tekst{
+  font-size: 2rem;
+}
+
+#newsletter_knapp:hover{
+  background-color: black;
+  color: #e6bd43;
+
+}
+
+.Sosiale_medier{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.tekst_footer{
+  margin: 2rem;
+}
+
+.Sosiale_medier_linker{
+  margin: 1rem;
+}
+}
+
