@@ -440,7 +440,12 @@ hr{
   color: #e6bd43;
 }
 
-
+.our_Serices_overskrift{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
 
 .About_our_company{
   font-weight: 900;
@@ -496,6 +501,28 @@ hr{
 
 .Sosiale_medier_linker{
   margin: 1rem;
+}
+
+.aboutcompany_info{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  margin-right: 2rem;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+.bilde_kontor_about {
+  width: 100%;
+  height: 27rem;
+}
+
+.Alle_logoer{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kunder{
+  padding: 3rem;
 }
 }
 

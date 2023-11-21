@@ -21,29 +21,31 @@
 
   <body>
     <header>
-      <!-- Nettsidens logo. -->
-      <div class="Logo">
-        <span>
-          <a href="index.html" id="logo">
-            <img
-              src="img/logo1.png"
-              alt="Bilde av nettsidens logo"
-              class="nettsidens_logo"
-            />
-          </a>
-        </span>
-      </div>
 
-      <!-- Opprett en navigasjonsseksjon. -->
-      <section class="meny">
-        <a href="index.html" class="ikon" id="ikon_link_home">Home</a>
-        <a href="portfolio.html" class="ikon" id="ikon_link_portofolio">Portofolio</a>
-        <a href="about.html" class="ikon" id="ikon_link_about">About</a>
-        <span class="ikon_link">
-          <a href="about.html" class="ikon" id="ikon_link_contact">Contact</a>
-        </span>
-      </section>
-    </header>
+       <!-- Nettsidens logo. -->
+       <section class="header">
+        <div class="Logo">
+          <span>
+            <a href="index.html" id="logo">
+              <img
+                src="img/logo1.png"
+                alt="Bilde av nettsidens logo"
+                class="nettsidens_logo"
+              />
+            </a>
+          </span>
+        </div>
+        <!-- Opprett en navigasjonsseksjon. -->
+        <section class="meny">
+          <a href="/index.html" class="ikon" id="ikon_link_home">Home</a>
+          <a href="/portfolio.html" class="ikon" id="ikon_link_portofolio">Portofolio</a>
+          <a href="/about.html" class="ikon" id="ikon_link_about">About</a>
+          <span class="ikon_link">
+            <a href="/about.html" class="ikon" id="ikon_link_contact">Contact</a>
+          </span>
+        </section>
+      </header>
+    </section>
 
     <main>
     <!--DEL 1 - bakgrunnsbilde & tekst-->
@@ -69,55 +71,59 @@
       </section>
       </div>
 
-      <!--Our services-->
-      <div class="our_services">
-        <!--Branding 1-->
-        <i class="fa-solid fa-users"></i>
-        <p class="branding">Branding</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-
-      <!--Branding 2-->
-      <div class="our_services">
-        <i class="fa-solid fa-cloud-arrow-up"></i>
-        <p class="branding">Branding</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-
-      <!--Branding 3-->
-      <div class="our_services">
-        <i class="fa-solid fa-code"></i>
-        <p class="branding">Branding</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-
-      <!--Branding 4-->
-      <div class="our_services">
-        <i class="fa-solid fa-wifi"></i>
-        <p class="branding">Branding</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
+      <!--DEL 4 - Our services-->
+      <h3 class="our_Serices_overskrift">Our services</h3>
+      <section class="Branding">
+        <div class="our_services">
+          <!--Branding 1-->
+          <i class="fa-solid fa-users"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <!--Branding 2-->
+        <div class="our_services">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+  
+        <!--Branding 3-->
+        <div class="our_services">
+          <i class="fa-solid fa-code"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+  
+        <!--Branding 4-->
+        <div class="our_services">
+          <i class="fa-solid fa-wifi"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
 
       <!--Del 5 - clients-->
       <section class="kunder">
         <p class="kunder_tekst">Some of our clients</p>
+        <section class="Alle_logoer">
         <section class="logo1_logo2">
           <img src="img/logo1.png" alt="Klientens logo" class="logo_klient" />
           <img src="img/logo2.png" alt="Klientens logo" class="logo_klient" />
         </section>
         <img src="img/logo3.png" alt="Klientens logo" class="logo_klient" />
+      </section>
       </section>
 
       <!-- Contact us-->
@@ -179,7 +185,7 @@
 
 <!--Footer-->
 <footer class="footer">
-  <div>
+  <div class="Sosiale_medier">
     <a href="index.html" id="logo">
     <img
       src="img/logo1.png"
@@ -188,6 +194,7 @@
     />
   </a>
     <p class="tekst_footer">Copyright companyname 2023</p>
+    <section class="Sosiale_medier_linker">
     <a href="https://www.facebook.com/" target="_blank">
     <i class="fa-brands fa-facebook footerIkoner"></i>
   </a>
@@ -196,9 +203,11 @@
   </a>
   <a href="https://no.linkedin.com/" target="_blank">
     <i class="fa-brands fa-linkedin footerIkoner"></i>
-  </a>
+    </a>
+  </section>
   </div>
 </footer>
 </body>
 </html>
+
 
