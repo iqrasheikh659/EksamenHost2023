@@ -18,13 +18,13 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>index</title>
   </head>
-
   <body>
     <header>
+
       <!-- Nettsidens logo. -->
       <div class="Logo">
         <span>
-          <a href="http://127.0.0.1:5500/index.html" id="logo">
+          <a href="index.html" id="logo">
             <img
               src="img/logo1.png"
               alt="Bilde av nettsidens logo"
@@ -36,42 +36,46 @@
 
       <!-- Opprett en navigasjonsseksjon. -->
       <section class="meny">
-        <a href="#" class="ikon" id="ikon_link_home">Home</a>
-        <a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a>
-        <a href="#" class="ikon" id="ikon_link_about">About</a>
+        <a href="/index.html" class="ikon" id="ikon_link_home">Home</a>
+        <a href="/portfolio.html" class="ikon" id="ikon_link_portofolio">Portofolio</a>
+        <a href="/about.html" class="ikon" id="ikon_link_about">About</a>
         <span class="ikon_link">
-          <a href="#" class="ikon" id="ikon_link_contact">Contact</a>
+          <a href="/about.html" class="ikon" id="ikon_link_contact">Contact</a>
         </span>
       </section>
     </header>
 
     <!--DEL 1 - Read more about our services-->
     <main>
+    <!--Video-->
       <video autoplay muted loop class="myVideo">
         <source
           src="/img/mountains.mp4"
           type="video/mp4"
         />
       </video>
-      <section class="bakgrunnsbildet_tekst">
-        <h1 class="tekst_del1">Compeling headline</h1>
+    <!--Video-->
+
+      <section class="TekstOverBildet">
         <img
           src="img/kontor_bilde.jpeg"
           alt="Bakgrunsbilde av ett kontor"
           class="bilde_kontor_index"
         />
+        <div class="TekstContainer">
+        <h1 class="Overskrift">Compeling headline</h1>
         <p class="tekst_del2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. t enim ad
           minim veniam, quis nostrud exercitation.
         </p>
-        <a href="#" class="service_knapp">Read more about our services</a>
+        <a href="about.html" class="service_knapp">Read more about our services</a>
+      </div>
       </section>
 
       <!--DEL 2 - Enganging subheading-->
       <section class="info_del2">
         <h2>Enganging subheading. What can you help your visitors with</h2>
-        <!--SKAL JEG BRUKE H2 HER-->
         <p>
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -81,7 +85,7 @@
       </section>
 
       <!--DEL 3 - About our company-->
-      <div class="info_del3">
+      <section class="info_del3">
         <img
           src="https://placehold.co/400"
           alt="Bilde fra placehold"
@@ -99,8 +103,8 @@
           quia non numquam eius modi tempora incidunt ut labore et dolore magnam
           aliquam quaerat voluptatem.
         </p>
-        <a href="#" class="readmore_knapp">Read more about us</a>
-      </div>
+        <a href="about.html" class="readmore_knapp">Read more about us</a>
+      </section>
 
       <!--DEL 4 - Our services-->
       <div class="our_services">
@@ -156,15 +160,23 @@
    <!--Footer-->
    <footer class="footer">
     <div>
+      <a href="index.html" id="logo">
       <img
         src="img/logo1.png"
         alt="Bilde av nettsidens logo"
         class="logo_footer"
       />
+    </a>
       <p class="tekst_footer">Copyright companyname 2023</p>
+      <a href="https://www.facebook.com/" target="_blank">
       <i class="fa-brands fa-facebook footerIkoner"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
       <i class="fa-brands fa-instagram footerIkoner"></i>
+    </a>
+    <a href="https://no.linkedin.com/" target="_blank">
       <i class="fa-brands fa-linkedin footerIkoner"></i>
+      </a>
     </div>
   </footer>
 </body>

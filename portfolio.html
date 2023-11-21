@@ -20,7 +20,7 @@
        <!-- Nettsidens logo. -->
        <div class="Logo">
         <span>
-          <a href="http://127.0.0.1:5500/index.html" id="logo">
+          <a href="index.html" id="logo">
             <img src="img/logo1.png" alt="Bilde av nettsidens logo" class="nettsidens_logo"/>
           </a>
         </span>
@@ -28,28 +28,28 @@
 
         <!-- Opprett en navigasjonsseksjon. -->
         <section class="meny">
-          <a href="#" class="ikon" id="ikon_link_home">Home</a>
-          <a href="#" class="ikon" id="ikon_link_portofolio">Portofolio</a>
-          <a href="#" class="ikon" id="ikon_link_about">About</a>
+          <a href="index.html" class="ikon" id="ikon_link_home">Home</a>
+          <a href="portfolio.html" class="ikon" id="ikon_link_portofolio">Portofolio</a>
+          <a href="about.html" class="ikon" id="ikon_link_about">About</a>
           <span class="ikon_link">
-            <a href="#" class="ikon" id="ikon_link_contact">Contact</a>
+            <a href="about.html" class="ikon" id="ikon_link_contact">Contact</a>
           </span>
         </section>
     </header>
 
     <!--DEL 1 - Portofolio-->
     <main>
-      <section>
-        <h1 class="portofolio">Portofolio</h1>
+      <section class="TekstOverBildet">
         <img
           src="img/kontor_bilde.jpeg"
           alt="bakgrunnsbilde for portofolio"
           class="bilde_kontor_portfolio"
         />
+        <h1 class="portofolio">Portofolio</h1>
       </section>
 
       <!--DEL 2 - Explore-->
-      <div class="explore_info">
+      <div>
         <h2 class="explore_tittel">Explore previous jobs</h2>
         <hr
           style="
@@ -60,9 +60,11 @@
             width: 80%;
           "
         />
+
+        <!--LINKE HER-->
         <div class="explore_button">
-          <button id="explore1">Branding</button>
-          <button id="explore2">Design</button>
+          <button id="explore_branding">Branding</button>
+          <button id="explore_design">Design</button>
           <button id="explore_development">Development</button>
         </div>
       </div>
@@ -70,15 +72,7 @@
       <!--DEL 3 - Branding-->
       <section>
         <h2 class="branding_tittel">Branding</h2>
-        <hr
-          style="
-            color: #e6bd43;
-            background-color: #e6bd43;
-            height: 4px;
-            border-width: 0;
-            width: 80%;
-          "
-        />
+        <hr/>
         <div class="bilde_portofolio">
           <article>
             <img
@@ -161,15 +155,7 @@
 
       <section>
         <h2 class="branding_tittel">Development</h2>
-        <hr
-          style="
-            color: #e6bd43;
-            background-color: #e6bd43;
-            height: 4px;
-            border-width: 0;
-            width: 80%;
-          "
-        />
+        <hr/>
         <div class="bilde_portofolio">
           <article>
             <img
@@ -193,19 +179,28 @@
     </main>
 
 
-    <!--Footer-->
-    <footer class="footer">
-      <div>
-        <img
-          src="img/logo1.png"
-          alt="Bilde av nettsidens logo"
-          class="logo_footer"
-        />
-        <p class="tekst_footer">Copyright companyname 2023</p>
-        <i class="fa-brands fa-facebook footerIkoner"></i>
-        <i class="fa-brands fa-instagram footerIkoner"></i>
-        <i class="fa-brands fa-linkedin footerIkoner"></i>
-      </div>
-    </footer>
-  </body>
+   <!--Footer-->
+   <footer class="footer">
+    <div>
+      <a href="index.html" id="logo">
+      <img
+        src="img/logo1.png"
+        alt="Bilde av nettsidens logo"
+        class="logo_footer"
+      />
+    </a>
+      <p class="tekst_footer">Copyright companyname 2023</p>
+      <a href="https://www.facebook.com/" target="_blank">
+      <i class="fa-brands fa-facebook footerIkoner"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+      <i class="fa-brands fa-instagram footerIkoner"></i>
+    </a>
+    <a href="https://no.linkedin.com/" target="_blank">
+      <i class="fa-brands fa-linkedin footerIkoner"></i>
+    </a>
+    </div>
+  </footer>
+</body>
 </html>
+
