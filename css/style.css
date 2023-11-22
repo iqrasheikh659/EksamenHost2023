@@ -203,6 +203,8 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  border-bottom: 5px solid #e6bd43;
+  width: 95%;
 }
 
 .explore_button {
@@ -238,7 +240,7 @@ header {
 .previous_jobs_titel {
   margin-left: 3rem;
   border-bottom: 5px solid #e6bd43;
-  width: 80%;
+  width: 95%;
 }
 
 .jobs_wrapper_branding, .jobs_wrapper_design, .jobs_wrapper_development {
@@ -432,7 +434,7 @@ header {
   }
   .service_knapp {
     top: 55%;
-    font-weight: 900;
+    font-weight: 600;
     padding: 1rem;
   }
 
@@ -449,7 +451,7 @@ header {
   }
 
   .About_our_company {
-    font-weight: 900;
+    font-weight: 600;
     margin-top: 3rem;
   }
 
@@ -537,8 +539,35 @@ header {
     height: 20rem;
   }
 
-  .AlleBilder_portofolio {
-    display: flex;
-    flex-direction: column;
-  }
+.jobs_wrapper_branding{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+
+.jobs_wrapper_design{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.jobs_wrapper_development{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.job_pictures4_branding{
+  width: 450px;
+}
+
+.job_pictures_development{
+  width: 450px;
+}
+
+.explore_tittel {
+  text-align: left;
+  margin-left: 3rem;
+
+}
 }
