@@ -315,11 +315,19 @@ hr{
 /**Del 5 - clients**/
 
 /**Contact us**/
-.contactus_info {
-  background-color: rgb(227, 225, 225);
-}
 .send_us_a_message {
   font-weight: bold;
+}
+
+.informasjon_alt{
+  background-color: rgb(227, 225, 225);
+  display: flex;
+  flex-direction: row;
+  gap: 10rem
+}
+
+.contactus_info{
+  margin-left: 1rem;
 }
 /**Contact us**/
 
@@ -503,13 +511,7 @@ hr{
   margin: 1rem;
 }
 
-.aboutcompany_info{
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  margin-right: 2rem;
-  background-color: rgba(211, 211, 211, 0.5);
-}
+
 .bilde_kontor_about {
   width: 100%;
   height: 27rem;
@@ -517,12 +519,25 @@ hr{
 
 .Alle_logoer{
   display: flex;
-    flex-direction: row;
-    justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .kunder{
   padding: 3rem;
 }
+
+.explore_button{
+  display: block;
 }
 
+.Bakgrunn_bildeinfo{
+  opacity: 1;
+}
+
+.aboutcompany_info {
+  left: 70%;
+  right: -24%;
+  text-align: left;
+}
+}
