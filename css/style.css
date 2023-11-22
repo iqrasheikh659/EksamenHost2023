@@ -1,5 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
+#pilbtn{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 4px;
+}
+
+
+
+
+
+
+
+
 .TekstMedVideo {
   display: none;
 }
@@ -126,12 +148,17 @@ header {
 /** DEL 2 - Enganging subheading**/
 
 /**DEL 3 - About our company**/
+
+.Picture_placehold_index{
+  width: 350px;
+}
 .info_del3 {
   background-color: #e6bd43;
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 3rem;
+  padding: 1rem;
 }
 
 .readmore_knapp {
@@ -140,14 +167,19 @@ header {
   border-style: solid;
   width: 8rem;
   margin: 0 auto;
+  padding: 1rem;
 }
+.our_Serices_overskrift{
+  text-align: center;
 
+}
 .our_services {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 3rem;
 }
+
 
 .tekst_branding {
   position: relative;
@@ -189,6 +221,7 @@ header {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: xxx-large;
 }
 
 .bilde_kontor_portfolio {
@@ -205,6 +238,7 @@ header {
   text-align: center;
   border-bottom: 5px solid #e6bd43;
   width: 95%;
+  font-size: xx-large
 }
 
 .explore_button {
@@ -247,6 +281,7 @@ header {
   margin-left: 3rem;
   border-bottom: 5px solid #e6bd43;
   width: 95%;
+  font-size: xx-large;
 }
 
 .jobs_wrapper_branding,
@@ -417,12 +452,17 @@ header {
   #ikon_link {
     font-weight: bold;
     border-bottom: 2px solid #e6bd43;
-    width: 20%;
+    width: 25%;
 
   }
 
   #ikon_link_contact {
     font-weight: bold;
+  }
+
+  #ikon_link_contact:hover{
+    background-color: black;
+    color: #e6bd43;
   }
 
   .myVideo {
@@ -454,7 +494,7 @@ header {
     padding: 1rem;
   }
 
-  .service_knapp:focus {
+  .service_knapp:hover {
     background-color: black;
     color: #e6bd43;
   }
@@ -467,11 +507,12 @@ header {
   }
 
   .About_our_company {
-    font-weight: 600;
+    font-weight: 800;
+    font-size: large;
     margin-top: 3rem;
   }
 
-  .bilde_portofolio {
+  .Picture_placehold_index {
     width: 400px;
     float: left;
     box-sizing: border-box;
@@ -482,7 +523,7 @@ header {
     padding: 1rem;
   }
 
-  .readmore_knapp:focus {
+  .readmore_knapp:hover {
     background-color: black;
     color: #e6bd43;
   }
@@ -592,6 +633,9 @@ header {
     transform: scale(1.1);
   }
 
+  .About_our_company_text{
+    text-align: justify;
+  }
    
   }
 
