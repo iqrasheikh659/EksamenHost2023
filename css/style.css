@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
-.TekstMedVideo{
+.TekstMedVideo {
   display: none;
 }
 /**Gjelder alle sidene**/
@@ -63,26 +63,24 @@ header {
 }
 /**Gjelder alle sidene**/
 
-
 /**INDEX**/
 
 /**DEL 1 - Read more about our services**/
 
 /**Video på desktop**/
-.myVideo{
+.myVideo {
   display: none;
 }
 /**Video på desktop**/
 
-
-.bilde_kontor_index{
+.bilde_kontor_index {
   opacity: 0.5;
   margin-top: 1.5rem;
   width: 100%;
-  height: 28rem
+  height: 28rem;
 }
 
-.TekstOverBildet{
+.TekstOverBildet_index {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -94,10 +92,9 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-
 }
 
-.tekst_del2{
+.tekst_del2 {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -106,26 +103,25 @@ header {
   margin-top: 3rem;
 }
 
-.service_knapp{
-    color: black;
-    background-color: #e6bd43;
-    padding: 1rem;
-    text-decoration: none;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 3rem;
+.service_knapp {
+  color: black;
+  background-color: #e6bd43;
+  padding: 1rem;
+  text-decoration: none;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 3rem;
 }
 /**DEL 1 - Read more about our services**/
-
 
 /** DEL 2 - Enganging subheading**/
 .info_del2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 /** DEL 2 - Enganging subheading**/
 
@@ -135,15 +131,15 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 3rem
+  margin-top: 3rem;
 }
 
-.readmore_knapp{
+.readmore_knapp {
   color: black;
   text-decoration: none;
   border-style: solid;
   width: 8rem;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .our_services {
@@ -161,7 +157,6 @@ header {
 .branding {
   font-weight: bold;
 }
-
 
 /**DEL 3 - About our company**/
 
@@ -183,6 +178,12 @@ header {
 /**PORTOFOLIO**/
 
 /**DEL 1 - Portofolio**/
+
+.TekstOverBildet_portofolio {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 .portofolio {
   position: absolute;
   top: 45%;
@@ -234,31 +235,30 @@ header {
 /**DEL 2 - Explore**/
 
 /**DEL 3 - Branding**/
-.branding_tittel {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-
+.previous_jobs_titel {
   margin-left: 3rem;
-}
-
-hr{
-  color: #e6bd43;
-  background-color: #e6bd43;
-  height: 4px;
-  border-width: 0;
+  border-bottom: 5px solid #e6bd43;
   width: 80%;
 }
 
-.bilde_portofolio {
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
+.jobs_wrapper_branding, .jobs_wrapper_design, .jobs_wrapper_development {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.info_tekst_portofolio {
-  font-size: 10px
+.job_card_branding, .job_card_design, .job_card_development {
+  padding-top: 2rem;
+  min-width: 200px;
+  max-width: 350px;
+}
+
+.job_pictures_branding, .job_pictures_design, .job_pictures_development {
+  width: 100%;
+}
+
+.job_info_branding, .job_info_design, .job_info_development {
+  font-size: 1rem;
 }
 /**DEL 3 - Branding**/
 
@@ -271,16 +271,16 @@ hr{
 /**ABOUT**/
 
 /**DEL 1 - bakgrunnsbilde & tekst**/
-.Bakgrunn_bildeinfo{
+.Bakgrunn_bildeinfo {
   background-color: #ffffff;
   border: 1px transparent;
   opacity: 0.7;
   margin-top: 1rem;
   position: relative;
-  text-align:center;
+  text-align: center;
 }
 
-.aboutcompany_info{
+.aboutcompany_info {
   background-color: rgba(211, 211, 211, 0.5);
   left: 50%;
   transform: translate(-50%, -50%);
@@ -288,14 +288,14 @@ hr{
   top: 50%;
 }
 
-#aboutus_button{
+#aboutus_button {
   position: relative;
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
   background-color: #e6bd43;
   padding: 10px;
-  margin-left: 1rem
+  margin-left: 1rem;
 }
 /**DEL 1 - bakgrunnsbilde & tekst**/
 
@@ -319,18 +319,17 @@ hr{
   font-weight: bold;
 }
 
-.informasjon_alt{
+.informasjon_alt {
   background-color: rgb(227, 225, 225);
   display: flex;
   flex-direction: row;
-  gap: 10rem
+  gap: 10rem;
 }
 
-.contactus_info{
+.contactus_info {
   margin-left: 1rem;
 }
 /**Contact us**/
-
 
 /**Name**/
 #name_contactus {
@@ -380,164 +379,166 @@ hr{
   margin-left: 1rem;
 }
 
-
-
-
 /**DESKTOP**/
 @media only screen and (min-width: 992px) {
-
-/**Gjelder alle sidene**/
-.meny{
+  /**Gjelder alle sidene**/
+  .meny {
     display: flex;
     flex-direction: row;
-}
+  }
 
-.header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 1rem;
-}
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+  }
 
-.nettsidens_logo{
-  margin: 1rem;
-}
+  .nettsidens_logo {
+    margin: 1rem;
+  }
 
-#ikon_link_home{
-  font-weight: bold;
-  text-decoration-line: underline;
+  #ikon_link_home {
+    font-weight: bold;
+    text-decoration-line: underline;
+  }
 
-}
+  #ikon_link_contact {
+    font-weight: bold;
+  }
 
-#ikon_link_contact{
-  font-weight: bold;
-}
-
-
-.myVideo{
+  .myVideo {
     background-repeat: no-repeat;
     display: block;
     width: 100%;
     height: 10%;
   }
 
-.TekstOverBildet {
-  display: none;
-}
+  .TekstOverBildet_index {
+    display: none;
+  }
 
-.TekstMedVideo {
-  display: block;
-}
+  .TekstMedVideo {
+    display: block;
+  }
 
-.tekst_del2{
-  top: 40%;
-}
+  .tekst_del2 {
+    top: 40%;
+  }
 
-.Overskrift {
-  top: 22%;
-  font-size: 3rem
-}
-.service_knapp{
-  top: 55%;
-  font-weight: 900;
-  padding: 1rem;
-}
+  .Overskrift {
+    top: 22%;
+    font-size: 3rem;
+  }
+  .service_knapp {
+    top: 55%;
+    font-weight: 900;
+    padding: 1rem;
+  }
 
-.service_knapp:focus{
-  background-color: black;
-  color: #e6bd43;
-}
+  .service_knapp:focus {
+    background-color: black;
+    color: #e6bd43;
+  }
 
-.our_Serices_overskrift{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 2rem;
-}
+  .our_Serices_overskrift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+  }
 
-.About_our_company{
-  font-weight: 900;
-  margin-top: 3rem;
-}
+  .About_our_company {
+    font-weight: 900;
+    margin-top: 3rem;
+  }
 
-.bilde_portofolio{
-  width: 400px;
-  float: left;
-  box-sizing: border-box;
-  padding: 20px;
-}
+  .bilde_portofolio {
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+  }
 
-.readmore_knapp{
-  padding: 1rem;
-}
+  .readmore_knapp {
+    padding: 1rem;
+  }
 
-.readmore_knapp:focus{
-  background-color: black;
-  color: #e6bd43;
-}
+  .readmore_knapp:focus {
+    background-color: black;
+    color: #e6bd43;
+  }
 
-.Branding{
-  display: flex;
-}
+  .Branding {
+    display: flex;
+  }
 
-.newsletter{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.newsletter_tekst{
-  font-size: 2rem;
-}
+  .newsletter_tekst {
+    font-size: 2rem;
+  }
 
-#newsletter_knapp:hover{
-  background-color: black;
-  color: #e6bd43;
+  #newsletter_knapp:hover {
+    background-color: black;
+    color: #e6bd43;
+  }
 
-}
+  .Sosiale_medier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+  }
 
-.Sosiale_medier{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 2rem;
-}
+  .tekst_footer {
+    margin: 2rem;
+  }
 
-.tekst_footer{
-  margin: 2rem;
-}
+  .Sosiale_medier_linker {
+    margin: 1rem;
+  }
 
-.Sosiale_medier_linker{
-  margin: 1rem;
-}
+  .bilde_kontor_about {
+    width: 100%;
+    height: 27rem;
+  }
 
+  .Alle_logoer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-.bilde_kontor_about {
-  width: 100%;
-  height: 27rem;
-}
+  .kunder {
+    padding: 3rem;
+  }
 
-.Alle_logoer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  .explore_button {
+    display: block;
+  }
 
-.kunder{
-  padding: 3rem;
-}
+  .Bakgrunn_bildeinfo {
+    opacity: 1;
+  }
 
-.explore_button{
-  display: block;
-}
+  .aboutcompany_info {
+    left: 70%;
+    right: -24%;
+    text-align: left;
+  }
 
-.Bakgrunn_bildeinfo{
-  opacity: 1;
-}
+  .bilde_kontor_portfolio {
+    opacity: 0.5;
+    height: 20rem;
+  }
 
-.aboutcompany_info {
-  left: 70%;
-  right: -24%;
-  text-align: left;
-}
+  .AlleBilder_portofolio {
+    display: flex;
+    flex-direction: column;
+  }
 }

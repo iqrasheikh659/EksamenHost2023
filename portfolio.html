@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Iqra Sheikh" />
     <!-- Inkluderer ikon-stiler for å bruke ikoner fra FontAwesome -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link href="css/font/css/fontawesome.css" rel="stylesheet" />
     <link href="css/font/css/brands.css" rel="stylesheet" />
     <link href="css/font/css/solid.css" rel="stylesheet" />
@@ -16,35 +20,38 @@
 
   <body>
     <header>
-
-        <!-- Nettsidens logo. -->
-        <section class="header">
-          <div class="Logo">
-            <span>
-              <a href="index.html" id="logo">
-                <img
-                  src="img/logo1.png"
-                  alt="Bilde av nettsidens logo"
-                  class="nettsidens_logo"
-                />
-              </a>
-            </span>
-          </div>
-          <!-- Opprett en navigasjonsseksjon. -->
-          <section class="meny">
-            <a href="/index.html" class="ikon" id="ikon_link_home">Home</a>
-            <a href="/portfolio.html" class="ikon" id="ikon_link_portofolio">Portofolio</a>
-            <a href="/about.html" class="ikon" id="ikon_link_about">About</a>
-            <span class="ikon_link">
-              <a href="/about.html" class="ikon" id="ikon_link_contact">Contact</a>
-            </span>
-          </section>
-        </header>
+      <!-- Nettsidens logo. -->
+      <section class="header">
+        <div class="Logo">
+          <span>
+            <a href="index.html" id="logo">
+              <img
+                src="img/logo1.png"
+                alt="Bilde av nettsidens logo"
+                class="nettsidens_logo"
+              />
+            </a>
+          </span>
+        </div>
+        <!-- Opprett en navigasjonsseksjon. -->
+        <section class="meny">
+          <a href="/index.html" class="ikon" id="ikon_link_home">Home</a>
+          <a href="/portfolio.html" class="ikon" id="ikon_link_portofolio"
+            >Portofolio</a
+          >
+          <a href="/about.html" class="ikon" id="ikon_link_about">About</a>
+          <span class="ikon_link">
+            <a href="/about.html" class="ikon" id="ikon_link_contact"
+              >Contact</a
+            >
+          </span>
+        </section>
       </section>
+    </header>
 
     <!--DEL 1 - Portofolio-->
     <main>
-      <section class="TekstOverBildet">
+      <section class="TekstOverBildet_portofolio">
         <img
           src="img/kontor_bilde.jpeg"
           alt="bakgrunnsbilde for portofolio"
@@ -56,15 +63,7 @@
       <!--DEL 2 - Explore-->
       <div>
         <h2 class="explore_tittel">Explore previous jobs</h2>
-        <hr
-          style="
-            color: #e6bd43;
-            background-color: #e6bd43;
-            height: 4px;
-            border-width: 0;
-            width: 80%;
-          "
-        />
+        <hr />
         <!--LINKE HER!!-->
         <div class="explore_button">
           <button id="explore_branding">Branding</button>
@@ -74,138 +73,129 @@
       </div>
 
       <!--DEL 3 - Branding-->
-      <section> 
-      <section>
-        <h2 class="branding_tittel">Branding</h2>
-        <hr/>
-        <div class="bilde_portofolio">
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
+      <section class="AlleBilder_portofolio">
+          <h2 class="previous_jobs_titel">Branding</h2>
 
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
+          <section class="jobs_wrapper_branding">
+            <article class="job_card_branding">
+              <img
+                src="https://placehold.co/400"
+                alt="Bilde fra placehold"
+                class="job_pictures_branding"
+              />
+              <h3 class="job_info_branding">Sed ut perspiciatis</h3>
+            </article>
 
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
+            <article class="job_card_branding">
+              <img
+                src="https://placehold.co/400"
+                alt="Bilde fra placehold"
+                class="job_pictures_branding"
+              />
+              <h3 class="job_info_branding">Sed ut perspiciatis</h3>
+            </article>
 
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
-        </div>
-      </section>
+            <article class="job_card_branding">
+              <img
+                src="https://placehold.co/400"
+                alt="Bilde fra placehold"
+                class="job_pictures_branding"
+              />
+              <h3 class="job_info_branding">Sed ut perspiciatis</h3>
+            </article>
 
-      <!--DEL 4 - Design-->
-      <section>
-        <h2 class="branding_tittel">Design</h2>
-        <hr  />
-        <div class="bilde_portofolio">
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
+            <article class="job_card_branding">
+              <img
+                src="https://placehold.co/400"
+                alt="Bilde fra placehold"
+                class="job_pictures_branding"
+              />
+              <h3 class="job_info_branding">Sed ut perspiciatis</h3>
+            </article>
+        </section>
 
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
+        <!--DEL 4 - Design-->
+          <h2 class="previous_jobs_titel">Design</h2>
 
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
-        </div>
-      </section>
-      <!--DEL 3 - Design-->
+          <section class="jobs_wrapper_design">
+            <article class="job_card_design">
+              <img
+                src="https://placehold.co/400"
+                alt="Bilde fra placehold"
+                class="job_pictures_design"
+              />
+              <h3 class="job_info_design">Sed ut perspiciatis</h3>
+            </article>
 
-      <!--DEL 3 - Development-->
-      <section>
-        <h2 class="branding_tittel">Development</h2>
-        <hr/>
-        <div class="bilde_portofolio">
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
+            
+                <article class="job_card_design">
+                  <img
+                    src="https://placehold.co/400"
+                    alt="Bilde fra placehold"
+                    class="job_pictures_design"
+                  />
+                  <h3 class="job_info_design">Sed ut perspiciatis</h3>
+                </article>
 
-          <article>
-            <img
-              src="https://placehold.co/400"
-              alt="Bilde fra placehold"
-              class="bilde_portofolio"
-            />
-            <h3 class="info_tekst_portofolio">Sed ut perspiciatis</h3>
-          </article>
-        </div>
-      </section>
-    </section>
+                    <article class="job_card_design">
+                      <img
+                        src="https://placehold.co/400"
+                        alt="Bilde fra placehold"
+                        class="job_pictures_design"
+                      />
+                      <h3 class="job_info_design">Sed ut perspiciatis</h3>
+                    </article>
+                    </section>
+        <!--DEL 3 - Design-->
 
+        <!--DEL 3 - Development-->
+          <h2 class="previous_jobs_titel">Development</h2>
+          <section class="jobs_wrapper_development">
+            <article class="job_card_development">
+              <img
+                src="https://placehold.co/400"
+                alt="Bilde fra placehold"
+                class="job_pictures_development"
+              />
+              <h3 class="job_info_development">Sed ut perspiciatis</h3>
+            </article>
+
+                <article class="job_card_development">
+                  <img
+                    src="https://placehold.co/400"
+                    alt="Bilde fra placehold"
+                    class="job_pictures_development"
+                  />
+                  <h3 class="job_info_development">Sed ut perspiciatis</h3>
+                </article>
+    
+          </section>
       <!--DEL 3 - Development-->
     </main>
 
-
-  <!--Footer-->
-  <footer class="footer">
-    <div class="Sosiale_medier">
-      <a href="index.html" id="logo">
-      <img
-        src="img/logo1.png"
-        alt="Bilde av nettsidens logo"
-        class="logo_footer"
-      />
-    </a>
-      <p class="tekst_footer">Copyright companyname 2023</p>
-      <section class="Sosiale_medier_linker">
-      <a href="https://www.facebook.com/" target="_blank">
-      <i class="fa-brands fa-facebook footerIkoner"></i>
-    </a>
-    <a href="https://www.instagram.com/" target="_blank">
-      <i class="fa-brands fa-instagram footerIkoner"></i>
-    </a>
-    <a href="https://no.linkedin.com/" target="_blank">
-      <i class="fa-brands fa-linkedin footerIkoner"></i>
-      </a>
-    </section>
-    </div>
-  </footer>
-</body>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="Sosiale_medier">
+        <a href="index.html" id="logo">
+          <img
+            src="img/logo1.png"
+            alt="Bilde av nettsidens logo"
+            class="logo_footer"
+          />
+        </a>
+        <p class="tekst_footer">Copyright companyname 2023</p>
+        <section class="Sosiale_medier_linker">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook footerIkoner"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram footerIkoner"></i>
+          </a>
+          <a href="https://no.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin footerIkoner"></i>
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
-
