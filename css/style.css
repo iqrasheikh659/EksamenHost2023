@@ -215,24 +215,30 @@ header {
   gap: 1rem;
 }
 
-#explore_branding {
+.explore_branding {
   text-decoration: none;
   font-weight: bold;
   background-color: white;
   padding: 10px;
+  border: 1px solid black;
+  color: black;
 }
-#explore_design {
+.explore_design {
   text-decoration: none;
   font-weight: bold;
   background-color: white;
   padding: 10px;
+  border: 1px solid black;
+  color: black
 }
 
-#explore_development {
+.explore_development {
   text-decoration: none;
   font-weight: bold;
   background-color: white;
   padding: 10px;
+  border: 1px solid black;
+  color: black;
 }
 /**DEL 2 - Explore**/
 
@@ -243,23 +249,31 @@ header {
   width: 95%;
 }
 
-.jobs_wrapper_branding, .jobs_wrapper_design, .jobs_wrapper_development {
+.jobs_wrapper_branding,
+.jobs_wrapper_design,
+.jobs_wrapper_development {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.job_card_branding, .job_card_design, .job_card_development {
+.job_card_branding,
+.job_card_design,
+.job_card_development {
   padding-top: 2rem;
   min-width: 200px;
   max-width: 350px;
 }
 
-.job_pictures_branding, .job_pictures_design, .job_pictures_development {
+.job_pictures_branding,
+.job_pictures_design,
+.job_pictures_development {
   width: 100%;
 }
 
-.job_info_branding, .job_info_design, .job_info_development {
+.job_info_branding,
+.job_info_design,
+.job_info_development {
   font-size: 1rem;
 }
 /**DEL 3 - Branding**/
@@ -400,9 +414,11 @@ header {
     margin: 1rem;
   }
 
-  #ikon_link_home {
+  #ikon_link {
     font-weight: bold;
-    text-decoration-line: underline;
+    border-bottom: 2px solid #e6bd43;
+    width: 20%;
+
   }
 
   #ikon_link_contact {
@@ -539,35 +555,43 @@ header {
     height: 20rem;
   }
 
-.jobs_wrapper_branding{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-items: center;
-}
+  .jobs_wrapper_branding {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+  }
 
-.jobs_wrapper_design{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+  .jobs_wrapper_design {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-.jobs_wrapper_development{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
+  .jobs_wrapper_development {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-.job_pictures4_branding{
-  width: 450px;
-}
+  .job_pictures4_branding {
+    width: 450px;
+  }
 
-.job_pictures_development{
-  width: 450px;
-}
+  .job_pictures_development {
+    width: 450px;
+  }
 
-.explore_tittel {
-  text-align: left;
-  margin-left: 3rem;
+  .explore_tittel {
+    text-align: left;
+    margin-left: 3rem;
+  }
 
-}
-}
+  .job_pictures_branding:hover {
+    transform: scale(1.1);
+  }
+
+  .job_pictures4_branding:hover,.job_pictures_design:hover, .job_pictures_development:hover{
+    transform: scale(1.1);
+  }
+
+   
+  }
+
