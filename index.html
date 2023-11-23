@@ -20,56 +20,54 @@
   </head>
   <body>
     <header>
-
       <!-- Nettsidens logo. -->
       <section class="header">
-      <div class="Logo">
-        <span>
-          <a href="index.html" id="logo">
-            <img
-              src="img/logo1.png"
-              alt="Bilde av nettsidens logo"
-              class="nettsidens_logo"
-            />
-          </a>
-        </span>
-      </div>
-      <!-- Opprett en navigasjonsseksjon. -->
-      <section class="meny">
-        <a href="/index.html" class="ikon" id="ikon_link">Home</a>
-        <a href="/portfolio.html" class="ikon" id="ikon_link_portofolio">Portofolio</a>
-        <a href="/about.html" class="ikon" id="ikon_link_about">About</a>
-        <span class="ikon_link">
-          <a href="/about.html" class="ikon" id="ikon_link_contact">Contact</a>
-        </span>
+        <div class="Logo">
+          <span>
+            <a href="index.html" id="logo">
+              <img
+                src="img/logo1.png"
+                alt="Bilde av nettsidens logo"
+                class="nettsidens_logo"
+              />
+            </a>
+          </span>
+        </div>
+
+        <section class="meny">
+          <a href="/index.html" class="ikon" id="#">Home</a>
+          <a href="/portfolio.html" class="ikon" id="#">Portofolio</a>
+          <a href="/about.html" class="ikon" id="ikon_link">About</a>
+          <span class="ikon_link">
+            <a class="ikon" href="#contact us" id="ikon_link_contact"
+              >Contact</a
+            >
+          </span>
+        </section>
       </section>
     </header>
-  </section>
     <!--DEL 1 - Read more about our services-->
     <main>
+      <!--Video-->
+      <section class="TekstMedVideo">
+        <video autoplay muted loop class="myVideo">
+          <source src="/img/mountains.mp4" type="video/mp4" />
+        </video>
+        <div class="TekstContainer">
+          <h1 class="Overskrift">Compeling headline</h1>
+          <p class="tekst_del2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+          </p>
+          <a href="about.html" class="service_knapp"
+            >Read more about our services</a
+          >
+        </div>
+      </section>
+      <!--Video-->
 
-
-    <!--Video-->
-    <section class="TekstMedVideo">
-      <video autoplay muted loop class="myVideo">
-        <source
-          src="/img/mountains.mp4"
-          type="video/mp4"
-        />
-      </video>
-      <div class="TekstContainer">
-        <h1 class="Overskrift">Compeling headline</h1>
-        <p class="tekst_del2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
-          
-        </p>
-        <a href="about.html" class="service_knapp">Read more about our services</a>
-      </div>
-    </section>
-    <!--Video-->
-
-    <!--Bildet-->
+      <!--Bildet-->
       <section class="TekstOverBildet_index">
         <img
           src="img/kontor_bilde.jpeg"
@@ -77,14 +75,16 @@
           class="bilde_kontor_index"
         />
         <div class="TekstContainer">
-        <h1 class="Overskrift">Compeling headline</h1>
-        <p class="tekst_del2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
-          
-        </p>
-        <a class="service_knapp" href="#Our Services" >Read more about our services</a>
-      </div>
+          <h1 class="Overskrift">Compeling headline</h1>
+          <p class="tekst_del2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+          </p>
+          <a class="service_knapp" href="#Our Services"
+            >Read more about our services</a
+          >
+        </div>
       </section>
 
       <!--DEL 2 - Enganging subheading-->
@@ -101,108 +101,108 @@
       <!--DEL 3 - About our company-->
       <section class="info_del3">
         <article>
-        <img
-          src="https://placehold.co/400"
-          alt="Bilde fra placehold"
-          class="Picture_placehold_index"
-        />
-        <section class="About_our_company_text">
-        <p class="About_our_company">About our company</p>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-        </p>
-        <a href="about.html" class="readmore_knapp">Read more about us</a>
-      </article>
-    </section>
+          <img
+            src="https://placehold.co/400"
+            alt="Bilde fra placehold"
+            class="Picture_placehold_index"
+          />
+          <section class="About_our_company_text">
+            <p class="About_our_company">About our company</p>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta
+            </p>
+            <a href="about.html" class="readmore_knapp">Read more about us</a>
+          </section>
+        </article>
       </section>
 
       <!--DEL 4 - Our services-->
       <h3 class="our_Serices_overskrift" id="Our Services">Our services</h3>
       <section class="Branding">
-      <div class="our_services">
-        <!--Branding 1-->
-        <i class="fa-solid fa-users"></i>
-        <p class="branding">Branding</p>
-        <p class="tekst_branding">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-      <!--Branding 2-->
-      <div class="our_services">
-        <i class="fa-solid fa-cloud-arrow-up"></i>
-        <p class="branding">Branding</p>
-        <p class="tekst_branding">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
+        <div class="our_services">
+          <!--Branding 1-->
+          <i class="fa-solid fa-users"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <!--Branding 2-->
+        <div class="our_services">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
 
-      <!--Branding 3-->
-      <div class="our_services">
-        <i class="fa-solid fa-code"></i>
-        <p class="branding">Branding</p>
-        <p class="tekst_branding">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
+        <!--Branding 3-->
+        <div class="our_services">
+          <i class="fa-solid fa-code"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
 
-      <!--Branding 4-->
-      <div class="our_services">
-        <i class="fa-solid fa-wifi"></i>
-        <p class="branding">Branding</p>
-        <p class="tekst_branding">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </section>
+        <!--Branding 4-->
+        <div class="our_services">
+          <i class="fa-solid fa-wifi"></i>
+          <p class="branding">Branding</p>
+          <p class="tekst_branding">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
 
       <!--Del 5 - newsletter-->
       <section class="newsletter">
         <h3 class="newsletter_tekst">Sign up for our newsletter</h3>
-      <section class="newsletter_knapp">
-        <label for="input"></label>
-        <input type="text" placeholder="Iqra@hotmail.com" id="input" />
-        <button id="newsletter_knapp">Sign me up!</button>
-        <a href="#"></a>
-        <a href="#"></a>
+        <section class="newsletter_knapp">
+          <label for="input"></label>
+          <input type="text" placeholder="Iqra@hotmail.com" id="input" />
+          <button id="newsletter_knapp">Sign me up!</button>
+          <a href="#"></a>
+          <a href="#"></a>
+        </section>
       </section>
-    </section>
     </main>
-
 
     <!--Pil-->
     <a href="/index.html" id="pilbtn">
       <i class="fa-solid fa-arrow-up"></i>
     </a>
 
-   <!--Footer-->
-   <footer class="footer">
-    <div class="Sosiale_medier">
-      <a href="index.html" id="logo">
-      <img
-        src="img/logo1.png"
-        alt="Bilde av nettsidens logo"
-        class="logo_footer"
-      />
-    </a>
-      <p class="tekst_footer">Copyright companyname 2023</p>
-      <section class="Sosiale_medier_linker">
-      <a href="https://www.facebook.com/" target="_blank">
-      <i class="fa-brands fa-facebook footerIkoner"></i>
-    </a>
-    <a href="https://www.instagram.com/" target="_blank">
-      <i class="fa-brands fa-instagram footerIkoner"></i>
-    </a>
-    <a href="https://no.linkedin.com/" target="_blank">
-      <i class="fa-brands fa-linkedin footerIkoner"></i>
-      </a>
-    </section>
-    </div>
-  </footer>
-</body>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="Sosiale_medier">
+        <a href="index.html" id="logo">
+          <img
+            src="img/logo1.png"
+            alt="Bilde av nettsidens logo"
+            class="logo_footer"
+          />
+        </a>
+        <p class="tekst_footer">Copyright companyname 2023</p>
+        <section class="Sosiale_medier_linker">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook footerIkoner"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram footerIkoner"></i>
+          </a>
+          <a href="https://no.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin footerIkoner"></i>
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>

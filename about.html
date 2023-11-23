@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Iqra Sheikh" />
     <!--Link for googlefonts-->
-     <link
+    <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800"
       rel="stylesheet"
       type="text/css"
@@ -21,9 +21,8 @@
 
   <body>
     <header>
-
-       <!-- Nettsidens logo. -->
-       <section class="header">
+      <!-- Nettsidens logo. -->
+      <section class="header">
         <div class="Logo">
           <span>
             <a href="index.html" id="logo">
@@ -35,47 +34,43 @@
             </a>
           </span>
         </div>
-        <!-- Opprett en navigasjonsseksjon. 
-        FJERNE ID FRA ALLE SAMME
 
-        FJERNE IKON_LINK FRA HOME HER
-        PUTTE IKON_LINK I ABOUT I ID
-        
-        
-        -->
         <section class="meny">
           <a href="/index.html" class="ikon" id="#">Home</a>
           <a href="/portfolio.html" class="ikon" id="#">Portofolio</a>
           <a href="/about.html" class="ikon" id="ikon_link">About</a>
           <span class="ikon_link">
-            <a href="/about.html" class="ikon" id="ikon_link_contact">Contact</a>
+            <a class="ikon" href="#contact us" id="ikon_link_contact"
+              >Contact</a
+            >
           </span>
         </section>
-      </header>
-    </section>
+      </section>
+    </header>
 
     <main>
-    <!--DEL 1 - bakgrunnsbilde & tekst-->
-        <section class="Bakgrunn_bildeinfo">
-          <img src="img/kontor_bilde.jpeg"
+      <!--DEL 1 - bakgrunnsbilde & tekst-->
+      <section class="Bakgrunn_bildeinfo">
+        <img
+          src="img/kontor_bilde.jpeg"
           alt="bakgrunnsbilde for compeling headline"
           class="bilde_kontor_about"
-          />
+        />
         <article class="aboutcompany_info">
-        <p>Comapny name</p>
-        <h1>About our company</h1>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-        </p>
-        <section>
-        <button id="aboutus_button">Get in touch with us</button>
+          <p>Comapny name</p>
+          <h1>About our company</h1>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          </p>
+          <section>
+            <a id="aboutus_button" href="#contact us">Get in touch with us</a>
+          </section>
+        </article>
       </section>
-      </article>
-      </section>
- 
+
       <!--DEL 4 - Our services-->
       <h3 class="our_Serices_overskrift">Our services</h3>
       <section class="Branding">
@@ -97,7 +92,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-  
+
         <!--Branding 3-->
         <div class="our_services">
           <i class="fa-solid fa-code"></i>
@@ -107,7 +102,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-  
+
         <!--Branding 4-->
         <div class="our_services">
           <i class="fa-solid fa-wifi"></i>
@@ -123,68 +118,71 @@
       <section class="kunder">
         <p class="kunder_tekst">Some of our clients</p>
         <section class="Alle_logoer">
-        <section class="logo1_logo2">
           <img src="img/logo1.png" alt="Klientens logo" class="logo_klient" />
           <img src="img/logo2.png" alt="Klientens logo" class="logo_klient" />
+          <img src="img/logo3.png" alt="Klientens logo" class="logo_klient" />
         </section>
-        <img src="img/logo3.png" alt="Klientens logo" class="logo_klient" />
-      </section>
       </section>
 
-      <!-- Contact us-->
+      <p class="contact_us" id="contact us">Contact us</p>
       <section class="informasjon_alt">
-      <section class="Contactus_del1">
-      <div class="contactus_info">
-        <p class="contact_us">Contact us</p>
-        <p class="send_us_a_message">Send us a message</p>
+        <section class="Contactus_del1">
+          <div class="contactus_info">
+            <p class="send_us_a_message">Send us a message</p>
 
-        <!--Name-->
-        <label for="name_contactus"></label>
-        <p>Name</p>
-        <input type="text" placeholder="Iqra Sheikh.." id="name_contactus" />
+            <!--Name-->
+            <label for="name_contactus"></label>
+            <p>Name</p>
+            <input
+              type="text"
+              placeholder="Iqra Sheikh.."
+              id="name_contactus"
+            />
 
-        <!--Subject-->
-        <label for="subject_contactus"></label>
-        <p>Subjet</p>
-        <input type="text" placeholder="Branding.." id="subject_contactus" />
+            <!--Subject-->
+            <label for="subject_contactus"></label>
+            <p>Subjet</p>
+            <input
+              type="text"
+              placeholder="Branding.."
+              id="subject_contactus"
+            />
 
-        <!--Message us-->
-        <label for="message_contactus"></label>
-        <p>Message us</p>
-        <textarea id="message_contactus" rows="10" cols="40"></textarea>
-        <button id="knapp_message">Send message</button>
-      </section>
+            <!--Message us-->
+            <label for="message_contactus"></label>
+            <p>Message us</p>
+            <textarea id="message_contactus" rows="10" cols="40"></textarea>
+            <button id="knapp_message">Send message</button>
+          </div>
+        </section>
 
         <!--CONTACT INFORMATION-->
         <section class="contactus_del2">
-        <p class="contact_information">Contact information</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
-        </p>
+          <p class="contact_information">Contact information</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
 
-        <!--Adresse-->
-        <section class="adresse">
-          <i class="fa-solid fa-location-pin"></i>
-          <p class="adresse_tekst">B R A Veien 4, 1757 Halden</p>
-        </section>
+          <!--Adresse-->
+          <section class="adresse">
+            <i class="fa-solid fa-location-pin"></i>
+            <p class="adresse_tekst">B R A Veien 4, 1757 Halden</p>
+          </section>
 
-        <!--Nummer-->
-        <section class="tlf_nummer">
-          <i class="fa-solid fa-phone"></i>
-          <p class="tlfnummer_tekst">69 60 80 00</p>
-        </section>
-      
+          <!--Nummer-->
+          <section class="tlf_nummer">
+            <i class="fa-solid fa-phone"></i>
+            <p class="tlfnummer_tekst">69 60 80 00</p>
+          </section>
 
-        <!--Mail-->
-        <section>
-          <i class="fa-solid fa-envelope"></i>
-          <a href="#" class="mail_tekst">postmottak@hiof.no</a>
+          <!--Mail-->
+          <section>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="#" class="mail_tekst">postmottak@hiof.no</a>
+          </section>
         </section>
       </section>
-    </section>
-      </div>
-    
 
       <!--Google kart-->
       <iframe
@@ -198,31 +196,34 @@
       </iframe>
     </main>
 
-<!--Footer-->
-<footer class="footer">
-  <div class="Sosiale_medier">
-    <a href="index.html" id="logo">
-    <img
-      src="img/logo1.png"
-      alt="Bilde av nettsidens logo"
-      class="logo_footer"
-    />
-  </a>
-    <p class="tekst_footer">Copyright companyname 2023</p>
-    <section class="Sosiale_medier_linker">
-    <a href="https://www.facebook.com/" target="_blank">
-    <i class="fa-brands fa-facebook footerIkoner"></i>
-  </a>
-  <a href="https://www.instagram.com/" target="_blank">
-    <i class="fa-brands fa-instagram footerIkoner"></i>
-  </a>
-  <a href="https://no.linkedin.com/" target="_blank">
-    <i class="fa-brands fa-linkedin footerIkoner"></i>
+    <!--Pil-->
+    <a href="about.html" id="pilbtn">
+      <i class="fa-solid fa-arrow-up"></i>
     </a>
-  </section>
-  </div>
-</footer>
-</body>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="Sosiale_medier">
+        <a href="index.html" id="logo">
+          <img
+            src="img/logo1.png"
+            alt="Bilde av nettsidens logo"
+            class="logo_footer"
+          />
+        </a>
+        <p class="tekst_footer">Copyright companyname 2023</p>
+        <section class="Sosiale_medier_linker">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa-brands fa-facebook footerIkoner"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram footerIkoner"></i>
+          </a>
+          <a href="https://no.linkedin.com/" target="_blank">
+            <i class="fa-brands fa-linkedin footerIkoner"></i>
+          </a>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
-
-
