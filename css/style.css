@@ -376,12 +376,6 @@ header {
   font-weight: bold;
 }
 
-.informasjon_alt {
-  background-color: rgb(227, 225, 225);
-  gap: 10rem;
-  margin: 0rem;
-}
-
 .contactus_del2 {
   margin-left: 1rem;
 }
@@ -390,8 +384,11 @@ header {
   margin-left: 1rem;
 }
 
-.contact_us {
+.contactWrapper {
   background-color: rgb(227, 225, 225);
+}
+
+.contact_us {
   margin: 0rem;
   text-align: center;
   font-weight: bolder;
@@ -657,12 +654,6 @@ header {
 
   .About_our_company_text {
     text-align: justify;
-  }
-
-  .informasjon_alt {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
   }
 
   .contactus_del2 {
