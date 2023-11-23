@@ -136,6 +136,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 3rem;
+  font-weight: bold;
 }
 /**DEL 1 - Read more about our services**/
 
@@ -203,6 +204,11 @@ header {
 .newsletter {
   background-color: lightgray;
   padding: 1.5rem;
+}
+
+/**Google kart**/
+.GoogleKart{
+  width: 100%;
 }
 /**Del 5 - newsletter**/
 
@@ -657,7 +663,13 @@ header {
   }
 
   .contactus_del2 {
-    margin-top: 2.5rem;
+    margin-left: 10rem;
+    margin-top: 0rem;
+  }
+
+  .contactAndInformation{
+    display: flex;
+    flex-direction: row;
   }
 
   .kunder {
