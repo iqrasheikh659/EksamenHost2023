@@ -1,23 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
-#pilbtn {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 99;
-  font-size: 15px;
-  border: none;
-  outline: none;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
 
-.TekstMedVideo {
-  display: none;
-}
 /**Gjelder alle sidene**/
 body {
   margin: 0;
@@ -82,7 +65,22 @@ header {
 #ikon_link {
   font-weight: bold;
   border-bottom: 2px solid #e6bd43;
-  width: 20%;
+  width: 15%;
+}
+
+#pilbtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
 /**Gjelder alle sidene**/
 
@@ -92,6 +90,10 @@ header {
 
 /**Video på desktop**/
 .myVideo {
+  display: none;
+}
+
+.TekstMedVideo {
   display: none;
 }
 /**Video på desktop**/
@@ -150,7 +152,6 @@ header {
 /** DEL 2 - Enganging subheading**/
 
 /**DEL 3 - About our company**/
-
 .Picture_placehold_index {
   width: 250px;
 }
@@ -189,7 +190,6 @@ header {
 .branding {
   font-weight: bold;
 }
-
 /**DEL 3 - About our company**/
 
 /**-Del 5 - newsletter**/
@@ -450,8 +450,9 @@ header {
   margin-left: 1rem;
 }
 
-/**DESKTOP**/
+
 @media only screen and (min-width: 992px) {
+
   /**Gjelder alle sidene**/
   .meny {
     display: flex;
@@ -484,88 +485,6 @@ header {
     color: #e6bd43;
   }
 
-  .myVideo {
-    background-repeat: no-repeat;
-    display: block;
-    width: 100%;
-    height: 10%;
-  }
-
-  .TekstOverBildet_index {
-    display: none;
-  }
-
-  .TekstMedVideo {
-    display: block;
-  }
-
-  .tekst_del2 {
-    top: 40%;
-  }
-
-  .Overskrift {
-    top: 22%;
-    font-size: 3rem;
-  }
-  .service_knapp {
-    top: 55%;
-    font-weight: 600;
-    padding: 1rem;
-  }
-
-  .service_knapp:hover {
-    background-color: black;
-    color: #e6bd43;
-  }
-
-  .our_Serices_overskrift {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 2rem;
-  }
-
-  .About_our_company {
-    font-weight: 800;
-    font-size: large;
-    margin-top: 3rem;
-  }
-
-  .Picture_placehold_index {
-    width: 400px;
-    float: left;
-    box-sizing: border-box;
-    padding: 20px;
-  }
-
-  .readmore_knapp {
-    padding: 1rem;
-  }
-
-  .readmore_knapp:hover {
-    background-color: black;
-    color: #e6bd43;
-  }
-
-  .Branding {
-    display: flex;
-  }
-
-  .newsletter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .newsletter_tekst {
-    font-size: 2rem;
-  }
-
-  #newsletter_knapp:hover {
-    background-color: black;
-    color: #e6bd43;
-  }
-
   .Sosiale_medier {
     display: flex;
     flex-direction: row;
@@ -580,11 +499,138 @@ header {
   .Sosiale_medier_linker {
     margin: 1rem;
   }
+  /**Gjelder alle sidene**/
 
+
+  /**INDEX**/
+
+  /**DEL 1 - Read more about our services**/
+
+  /**Video**/
+  .myVideo {
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 10%;
+  }
+
+  .TekstMedVideo {
+    display: block;
+  }
+  /**Video**/
+
+  /**Bildet**/
+  .TekstOverBildet_index {
+    display: none;
+  }
+
+  .Overskrift {
+    top: 22%;
+    font-size: 3rem;
+  }
+  
+  .tekst_del2 {
+    top: 40%;
+  }
+
+  .service_knapp {
+    top: 55%;
+    font-weight: 600;
+    padding: 1rem;
+  }
+
+  .service_knapp:hover {
+    background-color: black;
+    color: #e6bd43;
+  }
+  /**Bildet**/
+
+  /**DEL 3 - About our company**/
+  .About_our_company_text {
+    text-align: justify;
+  }
+
+  .About_our_company {
+    font-weight: 800;
+    font-size: large;
+    margin-top: 3rem;
+  }
+
+  .readmore_knapp {
+    padding: 1rem;
+  }
+  /**DEL 3 - About our company**/
+
+  /**DEL 4 - Our services**/
+  .our_Serices_overskrift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+  .Picture_placehold_index {
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .About_our_company {
+    font-weight: 800;
+    font-size: large;
+    margin-top: 3rem;
+  }
+
+  .Branding {
+    display: flex;
+  }
+  /**DEL 4 - Our services**/
+
+
+  /**Del 5 - newsletter**/
+  .newsletter_tekst {
+    font-size: 2rem;
+  }
+  
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .readmore_knapp:hover {
+    background-color: black;
+    color: #e6bd43;
+  }
+
+  #newsletter_knapp:hover {
+    background-color: black;
+    color: #e6bd43;
+  }
+
+  /**INDEX**/
+
+
+
+  /**ABOUT**/
+
+  /**DEL 1 - bakgrunnsbilde & tekst**/
+  .Bakgrunn_bildeinfo {
+    opacity: 1;
+  }
+  
   .bilde_kontor_about {
     width: 100%;
     height: 27rem;
   }
+
+  .aboutcompany_info {
+    left: 70%;
+    right: -24%;
+    text-align: left;
+    padding: 2rem;
+  }
+
 
   .Alle_logoer {
     display: flex;
@@ -600,21 +646,73 @@ header {
     display: block;
   }
 
-  .Bakgrunn_bildeinfo {
-    opacity: 1;
+  #aboutus_button {
+    margin-left: 0rem;
+    border: none;
+    padding: 1rem;
+    color: black;
   }
 
-  .aboutcompany_info {
-    left: 70%;
-    right: -24%;
-    text-align: left;
-    padding: 2rem;
+  #aboutus_button:hover {
+    background-color: black;
+    color: #e6bd43;
   }
+
+  /**DEL 3 - Clients**/
+  
+  .contactAndInformation{
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  .contactus_del2 {
+    margin-left: 10rem;
+    margin-top: 0rem;
+  }
+   /**ABOUT**/
+
+
+
+  /**PORTOFOLIO**/
+
+  /** DEL 1 - portofolio**/
 
   .bilde_kontor_portfolio {
     opacity: 0.5;
     height: 20rem;
   }
+
+
+  /**DEL 2 - Explore**/
+  .explore_tittel {
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .explore_branding:hover,
+  .explore_design:hover,
+  .explore_development:hover {
+    background-color: black;
+    color: #e6bd43;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   .jobs_wrapper_branding {
     display: grid;
@@ -643,10 +741,7 @@ header {
     width: 450px;
   }
 
-  .explore_tittel {
-    text-align: left;
-    margin-left: 1rem;
-  }
+ 
 
   .job_pictures_branding:hover {
     transform: scale(1.1);
@@ -662,39 +757,18 @@ header {
     text-align: justify;
   }
 
-  .contactus_del2 {
-    margin-left: 10rem;
-    margin-top: 0rem;
-  }
+  
 
-  .contactAndInformation{
-    display: flex;
-    flex-direction: row;
-  }
+  
 
   .kunder {
     font-size: xx-large;
     font-weight: bold;
   }
 
-  .explore_branding:hover,
-  .explore_design:hover,
-  .explore_development:hover {
-    background-color: black;
-    color: #e6bd43;
-  }
+ 
 
-  #aboutus_button {
-    margin-left: 0rem;
-    border: none;
-    padding: 1rem;
-    color: black;
-  }
-
-  #aboutus_button:hover {
-    background-color: black;
-    color: #e6bd43;
-  }
+ 
 
 
   #knapp_message {
