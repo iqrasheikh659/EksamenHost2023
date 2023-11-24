@@ -280,7 +280,7 @@ header {
 }
 /**DEL 2 - Explore**/
 
-/**DEL 3 - Branding**/
+/**DEL 4 - Branding, design & development**/
 .previous_jobs_titel {
   margin-left: 1rem;
   border-bottom: 5px solid #e6bd43;
@@ -451,6 +451,13 @@ header {
 }
 
 
+
+
+
+
+
+
+
 @media only screen and (min-width: 992px) {
 
   /**Gjelder alle sidene**/
@@ -559,6 +566,12 @@ header {
   .readmore_knapp {
     padding: 1rem;
   }
+
+  .About_our_company_text {
+    text-align: justify;
+  }
+
+  
   /**DEL 3 - About our company**/
 
   /**DEL 4 - Our services**/
@@ -670,6 +683,21 @@ header {
     margin-left: 10rem;
     margin-top: 0rem;
   }
+
+  .kunder {
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  #knapp_message {
+    border: none;
+  }
+
+  #knapp_message:hover {
+    background-color: black;
+    color: #e6bd43;
+  }
+
    /**ABOUT**/
 
 
@@ -700,52 +728,13 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+  /**Del 3 - Branding, design & development**/
   .jobs_wrapper_branding {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-items: center;
   }
 
-  .jobs_wrapper_design {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .jobs_wrapper_development {
-    flex-direction: row;
-    justify-content: space-around;
-    margin-right: 7rem;
-  }
-
-  .job_pictures4_branding {
-    padding-top: 2rem;
-    min-width: 200px;
-    max-width: 445px;
-  }
-
-  .job_pictures_development {
-    width: 450px;
-  }
-
- 
-
-  .job_pictures_branding:hover {
-    transform: scale(1.1);
-  }
 
   .job_pictures4_branding:hover,
   .job_pictures_design:hover,
@@ -753,30 +742,49 @@ header {
     transform: scale(1.1);
   }
 
-  .About_our_company_text {
-    text-align: justify;
+
+  .job_pictures4_branding {
+    padding-top: 2rem;
+    min-width: 200px;
+    max-width: 445px;
+  }
+
+
+  .jobs_wrapper_design {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+
+  .jobs_wrapper_development {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 7rem;
   }
 
   
 
-  
-
-  .kunder {
-    font-size: xx-large;
-    font-weight: bold;
+  .job_pictures_development {
+    width: 450px;
   }
 
  
 
  
 
+ 
 
-  #knapp_message {
-    border: none;
-  }
 
-  #knapp_message:hover {
-    background-color: black;
-    color: #e6bd43;
-  }
+
+
+  
+  
+
+  
+
+  
+ 
+
+
+
 }
