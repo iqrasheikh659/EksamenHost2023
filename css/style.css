@@ -1,3 +1,4 @@
+/**Link for google font**/
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
 /**Gjelder alle sidene**/
@@ -436,6 +437,7 @@ header {
   margin-top: 1rem;
   background-color: #e6bd43;
   padding: 0.5rem;
+  display: flex;
 }
 /**Message**/
 
