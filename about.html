@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="About our company">
+    <meta name="description" content="About our company" />
     <meta name="author" content="Iqra Sheikh" />
     <!--Link for googlefonts-->
     <link
@@ -26,7 +26,7 @@
       <section class="header">
         <div class="Logo">
           <span>
-            <a href="index.html" id="logo">
+            <a href="index.html" id="logo" aria-label="Home">
               <img
                 src="img/logo1.png"
                 alt="Bilde av nettsidens logo"
@@ -41,9 +41,7 @@
           <a href="/portfolio.html" class="ikon" id="#">Portofolio</a>
           <a href="/about.html" class="ikon" id="ikon_link">About</a>
           <span class="ikon_link">
-            <a class="ikon" href="#contactUs" id="ikon_link_contact"
-              >Contact</a
-            >
+            <a class="ikon" href="#contactUs" id="ikon_link_contact">Contact</a>
           </span>
         </section>
       </section>
@@ -53,11 +51,12 @@
       <!--DEL 1 - bakgrunnsbilde & tekst-->
       <section class="Bakgrunn_bildeinfo">
         <img
+          aria-label="Picture of a office"
           src="img/kontor_bilde.jpeg"
           alt="bakgrunnsbilde for compeling headline"
           class="bilde_kontor_about"
         />
-      <!--Bildet hentet fra: https://pixabay.com/photos/pen-notebook-notepad-diary-4337524/-->
+        <!--Bildet hentet fra: https://pixabay.com/photos/pen-notebook-notepad-diary-4337524/-->
         <article class="aboutcompany_info">
           <p>Comapny name</p>
           <h1>About our company</h1>
@@ -68,7 +67,12 @@
             dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
           </p>
           <section>
-            <a id="aboutus_button" href="#contactUs">Get in touch with us</a>
+            <a
+              id="aboutus_button"
+              href="#contactUs"
+              aria-label="Get in touch with us"
+              >Get in touch with us</a
+            >
           </section>
         </article>
       </section>
@@ -126,84 +130,85 @@
         </section>
       </section>
 
-      <section class="contactWrapper"> 
-      <p class="contact_us" id="contactUs">Contact us</p>
-      <section class="contactAndInformation">
-        <section>
-          <div class="contactus_info">
-            <p class="send_us_a_message">Send us a message</p>
-
-            <!--Name-->
-            <label for="name_contactus"></label>
-            <p>Name</p>
-            <input
-              type="text"
-              placeholder="Iqra Sheikh.."
-              id="name_contactus"
-            />
-
-            <!--Subject-->
-            <label for="subject_contactus"></label>
-            <p>Subjet</p>
-            <input
-              type="text"
-              placeholder="Branding.."
-              id="subject_contactus"
-            />
-
-            <!--Message us-->
-            <label for="message_contactus"></label>
-            <p>Message us</p>
-            <textarea id="message_contactus" rows="10" cols="40"></textarea>
-            <button id="knapp_message">Send message</button>
-          </div>
-        </section>
-
-        <!--CONTACT INFORMATION-->
-        <section class="contactus_del2">
-          <p class="contact_information">Contact information</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </p>
-
-          <!--Adresse-->
-          <section class="adresse">
-            <i class="fa-solid fa-location-pin"></i>
-            <p class="adresse_tekst">B R A Veien 4, 1757 Halden</p>
-          </section>
-
-          <!--Nummer-->
-          <section class="tlf_nummer">
-            <i class="fa-solid fa-phone"></i>
-            <p class="tlfnummer_tekst">69 60 80 00</p>
-          </section>
-
-          <!--Mail-->
+      <section class="contactWrapper">
+        <p class="contact_us" id="contactUs">Contact us</p>
+        <section class="contactAndInformation">
           <section>
-            <i class="fa-solid fa-envelope"></i>
-            <a href="#" class="mail_tekst">postmottak@hiof.no</a>
+            <div class="contactus_info">
+              <p class="send_us_a_message">Send us a message</p>
+
+              <!--Name-->
+              <label for="name_contactus"></label>
+              <p>Name</p>
+              <input
+                type="text"
+                placeholder="Iqra Sheikh.."
+                id="name_contactus"
+              />
+
+              <!--Subject-->
+              <label for="subject_contactus"></label>
+              <p>Subjet</p>
+              <input
+                type="text"
+                placeholder="Branding.."
+                id="subject_contactus"
+              />
+
+              <!--Message us-->
+              <label for="message_contactus"></label>
+              <p>Message us</p>
+              <textarea id="message_contactus" rows="10" cols="40"></textarea>
+              <button id="knapp_message">Send message</button>
+            </div>
+          </section>
+
+          <!--CONTACT INFORMATION-->
+          <section class="contactus_del2">
+            <p class="contact_information">Contact information</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+
+            <!--Adresse-->
+            <section class="adresse">
+              <i class="fa-solid fa-location-pin"></i>
+              <p class="adresse_tekst">B R A Veien 4, 1757 Halden</p>
+            </section>
+
+            <!--Nummer-->
+            <section class="tlf_nummer">
+              <i class="fa-solid fa-phone"></i>
+              <p class="tlfnummer_tekst">69 60 80 00</p>
+            </section>
+
+            <!--Mail-->
+            <section>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="#" class="mail_tekst">postmottak@hiof.no</a>
+            </section>
           </section>
         </section>
       </section>
-    </section>
 
       <!--Google kart-->
-      <iframe class="GoogleKart"
+      <iframe
+        class="GoogleKart"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.188276543403!2d11.350228377028579!3d59.129250227020194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1700245395549!5m2!1sno!2sno"
       >
       </iframe>
     </main>
 
     <!--Pil-->
-    <a href="about.html" id="pilbtn">
+    <a href="about.html" id="pilbtn" aria-label="Scroll to top">
       <i class="fa-solid fa-arrow-up"></i>
     </a>
 
     <!--Footer-->
     <footer class="footer">
       <div class="Sosiale_medier">
-        <a href="index.html" id="logoFooter">
+        <a href="index.html" id="logoFooter" aria-label="Home">
           <img
             src="img/logo1.png"
             alt="Bilde av nettsidens logo"

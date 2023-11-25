@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
-
 /**Gjelder alle sidene**/
 body {
   margin: 0;
@@ -65,7 +64,7 @@ header {
 #ikon_link {
   font-weight: bold;
   border-bottom: 2px solid #e6bd43;
-  width: 15%;
+  width: 10%;
 }
 
 #pilbtn {
@@ -83,6 +82,23 @@ header {
   border-radius: 4px;
 }
 /**Gjelder alle sidene**/
+
+/**Ikoner for service**/
+.fa-users::before {
+  font-size: 30px;
+}
+
+.fa-cloud-arrow-up::before {
+  font-size: 1.5rem;
+}
+
+.fa-code::before {
+  font-size: 1.5rem;
+}
+
+.fa-wifi::before {
+  font-size: 1.5rem;
+}
 
 /**INDEX**/
 
@@ -207,7 +223,7 @@ header {
 }
 
 /**Google kart**/
-.GoogleKart{
+.GoogleKart {
   width: 100%;
 }
 /**Del 5 - newsletter**/
@@ -450,16 +466,7 @@ header {
   margin-left: 1rem;
 }
 
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 992px) {
-
   /**Gjelder alle sidene**/
   .meny {
     display: flex;
@@ -508,7 +515,6 @@ header {
   }
   /**Gjelder alle sidene**/
 
-
   /**INDEX**/
 
   /**DEL 1 - Read more about our services**/
@@ -535,7 +541,7 @@ header {
     top: 22%;
     font-size: 3rem;
   }
-  
+
   .tekst_del2 {
     top: 40%;
   }
@@ -571,7 +577,6 @@ header {
     text-align: justify;
   }
 
-  
   /**DEL 3 - About our company**/
 
   /**DEL 4 - Our services**/
@@ -599,12 +604,11 @@ header {
   }
   /**DEL 4 - Our services**/
 
-
   /**Del 5 - newsletter**/
   .newsletter_tekst {
     font-size: 2rem;
   }
-  
+
   .newsletter {
     display: flex;
     flex-direction: column;
@@ -623,15 +627,13 @@ header {
 
   /**INDEX**/
 
-
-
   /**ABOUT**/
 
   /**DEL 1 - bakgrunnsbilde & tekst**/
   .Bakgrunn_bildeinfo {
     opacity: 1;
   }
-  
+
   .bilde_kontor_about {
     width: 100%;
     height: 27rem;
@@ -643,7 +645,6 @@ header {
     text-align: left;
     padding: 2rem;
   }
-
 
   .Alle_logoer {
     display: flex;
@@ -672,12 +673,11 @@ header {
   }
 
   /**DEL 3 - Clients**/
-  
-  .contactAndInformation{
+
+  .contactAndInformation {
     display: flex;
     flex-direction: row;
   }
-  
 
   .contactus_del2 {
     margin-left: 10rem;
@@ -698,9 +698,7 @@ header {
     color: #e6bd43;
   }
 
-   /**ABOUT**/
-
-
+  /**ABOUT**/
 
   /**PORTOFOLIO**/
 
@@ -710,7 +708,6 @@ header {
     opacity: 0.5;
     height: 20rem;
   }
-
 
   /**DEL 2 - Explore**/
   .explore_tittel {
@@ -725,9 +722,6 @@ header {
     color: #e6bd43;
   }
 
-
-
-
   /**Del 3 - Branding, design & development**/
   .jobs_wrapper_branding {
     display: grid;
@@ -735,13 +729,11 @@ header {
     justify-items: center;
   }
 
-
   .job_pictures4_branding:hover,
   .job_pictures_design:hover,
   .job_pictures_development:hover {
     transform: scale(1.1);
   }
-
 
   .job_pictures4_branding {
     padding-top: 2rem;
@@ -749,12 +741,10 @@ header {
     max-width: 445px;
   }
 
-
   .jobs_wrapper_design {
     flex-direction: row;
     justify-content: space-around;
   }
-
 
   .jobs_wrapper_development {
     flex-direction: row;
@@ -762,29 +752,7 @@ header {
     margin-right: 7rem;
   }
 
-  
-
   .job_pictures_development {
     width: 450px;
   }
-
- 
-
- 
-
- 
-
-
-
-
-  
-  
-
-  
-
-  
- 
-
-
-
 }
