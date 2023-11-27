@@ -727,9 +727,13 @@ header {
 
   /**Del 3 - Branding, design & development**/
   .jobs_wrapper_branding {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .jobs_wrapper_picture4{
+    margin-left: 1rem;
   }
 
   .job_pictures4_branding:hover,
