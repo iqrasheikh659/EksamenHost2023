@@ -189,6 +189,9 @@ header {
 }
 .our_Serices_overskrift {
   text-align: center;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 .our_services {
   display: flex;
