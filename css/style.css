@@ -45,11 +45,11 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 3rem;
 }
 
 .logo_footer {
   width: 5rem;
-  text-align: center;
 }
 
 .tekst_footer {
@@ -72,15 +72,10 @@ header {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  z-index: 99;
-  font-size: 15px;
-  border: none;
-  outline: none;
   background-color: black;
   color: white;
-  cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+  
 }
 /**Gjelder alle sidene**/
 
@@ -118,7 +113,6 @@ header {
 .bilde_kontor_index {
   opacity: 0.5;
   margin-top: 1.5rem;
-  width: 100%;
   height: 28rem;
 }
 
@@ -133,7 +127,7 @@ header {
   top: 14%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  
 }
 
 .tekst_del2 {
@@ -169,6 +163,11 @@ header {
 /** DEL 2 - Enganging subheading**/
 
 /**DEL 3 - About our company**/
+.About_our_company {
+  font-weight: 800;
+  font-size: large;
+}
+
 .Picture_placehold_index {
   width: 250px;
 }
@@ -185,7 +184,6 @@ header {
   color: black;
   text-decoration: none;
   border-style: solid;
-  width: 8rem;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -196,7 +194,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 3rem;
+  margin: 2rem;
 }
 
 .tekst_branding {
@@ -216,6 +214,7 @@ header {
 #newsletter_knapp {
   background-color: #e6bd43;
   padding: 0.5rem;
+  border: none;
 }
 
 .newsletter {
@@ -243,11 +242,10 @@ header {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: xxx-large;
+  font-size: 40px;
 }
 
 .bilde_kontor_portfolio {
-  width: 100%;
   opacity: 0.5;
   margin-top: 2rem;
 }
@@ -258,7 +256,6 @@ header {
   border-bottom: 5px solid #e6bd43;
   width: 90%;
   font-size: 25px;
-  white-space: nowrap;
   margin-left: 1rem;
 }
 
@@ -273,7 +270,6 @@ header {
 .explore_branding {
   text-decoration: none;
   font-weight: bold;
-  background-color: white;
   padding: 10px;
   border: 1px solid black;
   color: black;
@@ -281,7 +277,6 @@ header {
 .explore_design {
   text-decoration: none;
   font-weight: bold;
-  background-color: white;
   padding: 10px;
   border: 1px solid black;
   color: black;
@@ -290,7 +285,6 @@ header {
 .explore_development {
   text-decoration: none;
   font-weight: bold;
-  background-color: white;
   padding: 10px;
   border: 1px solid black;
   color: black;
@@ -405,6 +399,7 @@ header {
 
 .contactus_info {
   margin-left: 1rem;
+  margin: 1rem;
 }
 
 .contactWrapper {
@@ -438,6 +433,7 @@ header {
   background-color: #e6bd43;
   padding: 0.5rem;
   display: flex;
+  border: none;
 }
 /**Message**/
 
@@ -450,7 +446,6 @@ header {
 /**Adresse**/
 .adresse {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 /**Adresse**/
@@ -458,7 +453,6 @@ header {
 /**Nummer**/
 .tlf_nummer {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 /**Nummer**/
@@ -478,7 +472,6 @@ header {
 
   .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin: 1rem;
   }
@@ -541,18 +534,17 @@ header {
   }
 
   .Overskrift {
-    top: 22%;
+    top: 30%;
     font-size: 3rem;
   }
 
   .tekst_del2 {
-    top: 40%;
+    top: 50%;
   }
 
   .service_knapp {
-    top: 55%;
     font-weight: 600;
-    padding: 1rem;
+    
   }
 
   .service_knapp:hover {
@@ -562,20 +554,7 @@ header {
   /**Bildet**/
 
   /**DEL 3 - About our company**/
-  .About_our_company_text {
-    text-align: justify;
-  }
-
-  .About_our_company {
-    font-weight: 800;
-    font-size: large;
-    margin-top: 3rem;
-  }
-
-  .readmore_knapp {
-    padding: 1rem;
-  }
-
+  
   .About_our_company_text {
     text-align: justify;
   }
@@ -586,7 +565,6 @@ header {
   .our_Serices_overskrift {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 2rem;
   }
 
@@ -645,7 +623,6 @@ header {
   .aboutcompany_info {
     left: 70%;
     right: -24%;
-    text-align: left;
     padding: 2rem;
   }
 
@@ -713,10 +690,7 @@ header {
   }
 
   /**DEL 2 - Explore**/
-  .explore_tittel {
-    text-align: left;
-    margin-left: 1rem;
-  }
+
 
   .explore_branding:hover,
   .explore_design:hover,
