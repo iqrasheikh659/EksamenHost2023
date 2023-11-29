@@ -13,6 +13,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 1rem;
 }
 
 .nettsidens_logo {
@@ -126,6 +127,7 @@ header {
   top: 14%;
   left: 49%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .tekst_del2 {
@@ -522,6 +524,7 @@ header {
 
   .About_our_company_text {
     text-align: justify;
+    padding: 2rem;
   }
 
   /**DEL 3 - About our company**/
