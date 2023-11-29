@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html lang="zxx"> <!--På grunn av at jeg bruker tekster fra lorum ipsum, har jeg brukt språket zxx som indikerer at det ikke er et bestemt språl som skal brukes i koden-->
+<html lang="zxx">
+  <!--På grunn av at jeg bruker tekster fra lorum ipsum, har jeg brukt språket zxx som indikerer at det ikke er et bestemt språl som skal brukes i koden-->
   <head>
     <!--Vanlig Meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Compeling headline">
-    <meta name="author" content="Iqra Sheikh">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Compeling headline" />
+    <meta name="author" content="Iqra Sheikh" />
     <!--Open Graph metadata-->
-    <meta property="og:title" content="Compeling headline">
-    <meta property="og:description" content="About the company and servie information">
-    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
-   
-    
+    <meta property="og:title" content="Compeling headline" />
+    <meta
+      property="og:description"
+      content="About the company and servie information"
+    />
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
+
     <!--Link for googlefonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800"
       rel="stylesheet"
       type="text/css"
-    >
+    />
     <!-- Inkluderer ikon-stiler for å bruke ikoner fra FontAwesome -->
-    <link href="css/font/css/fontawesome.css" rel="stylesheet">
-    <link href="css/font/css/brands.css" rel="stylesheet">
-    <link href="css/font/css/solid.css" rel="stylesheet">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet" />
+    <link href="css/font/css/brands.css" rel="stylesheet" />
+    <link href="css/font/css/solid.css" rel="stylesheet" />
     <!--Inkluderer stilark for nettstedet-->
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <!--Favicon-->
-    <link rel="icon" type="image/x-icon" href="img/logo1.png">
-    
+    <link rel="icon" type="image/x-icon" href="img/logo1.png" />
+
     <!--Tittel på hvilken nettside denne kodes gjelder for-->
     <title>index</title>
   </head>
@@ -34,28 +37,28 @@
   <body>
     <header>
       <!-- Nettsidens logo. -->
-      <section class="header">
-        <div class="Logo">
-          <span>
-            <a href="index.html" id="logo" aria-label="Home">
-              <img
-                src="img/logo1.png"
-                alt="Bilde av nettsidens logo"
-                class="nettsidens_logo"
-              >
-            </a>
-          </span>
-        </div>
+      <div class="header">
+        <span>
+          <a href="index.html" id="logo" aria-label="Home">
+            <img
+              src="img/logo1.png"
+              alt="Bilde av nettsidens logo"
+              class="nettsidens_logo"
+            />
+          </a>
+        </span>
 
         <nav class="meny">
-          <a href="/index.html" class="ikon" id="ikon_link">Home</a>
-          <a href="/portfolio.html" class="ikon" id="#">Portofolio</a>
-          <a href="/about.html" class="ikon" id=".">About</a>
+          <a href="index.html" class="ikon" id="ikon_link">Home</a>
+          <a href="portfolio.html" class="ikon" id="#">Portofolio</a>
+          <a href="about.html" class="ikon" id=".">About</a>
           <span class="ikon_link">
-            <a class="ikon" href="#contactUs" id="ikon_link_contact">Contact</a>
+            <a class="ikon" href="about.html#contactUs" id="ikon_link_contact"
+              >Contact</a
+            >
           </span>
         </nav>
-      </section>
+      </div>
     </header>
 
     <!--DEL 1 - Read more about our services-->
@@ -69,17 +72,19 @@
           class="myVideo"
           aria-label="A video of parachuters"
         >
-          <source src="/img/mountains.mp4" type="video/mp4">
+          <source src="img/mountains.mp4" type="video/mp4" />
         </video>
+        <div>
           <h1 class="Overskrift">Compeling headline</h1>
           <p class="tekst_del2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             proident, sunt in culpa qui officia deserunt mollit anim id est
             laborum.
           </p>
-          <a href="#OurServices" class="service_knapp"
+          <a href="#OurServices" class="service_knapp" tabindex="0"
             >Read more about our services</a
           >
+        </div>
       </section>
       <!--Video-->
 
@@ -90,24 +95,24 @@
           src="img/kontor_bilde.jpeg"
           alt="Bakgrunsbilde av ett kontor"
           class="bilde_kontor_index"
-        >
+        />
         <!--Bildet hentet fra: https://pixabay.com/photos/pen-notebook-notepad-diary-4337524/-->
-        <div class="TekstContainer">
-          <h1 class="Overskrift">Compeling headline</h1>
-          <p class="tekst_del2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
-          <a class="service_knapp" href="#OurServices"
-            >Read more about our services</a
-          >
-        </div>
+        <h1 class="Overskrift">Compeling headline</h1>
+        <p class="tekst_del2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+        <a class="service_knapp" href="#OurServices"
+          >Read more about our services</a
+        >
       </section>
 
       <!--DEL 2 - Enganging subheading-->
       <section class="info_del2">
-        <h2>Enganging subheading. What can you help your visitors with</h2>
+        <h2 class="subheading_index">
+          Enganging subheading. What can you help your visitors with
+        </h2>
         <p>
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -118,114 +123,125 @@
 
       <!--DEL 3 - About our company-->
       <div class="info_del3">
-        <article>
-          <img
-            src="https://placehold.co/400"
-            alt="Bilde fra placehold"
-            class="Picture_placehold_index"
-          >
-          <section class="About_our_company_text">
-            <h3 class="About_our_company">About our company</h3>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta
-            </p>
-            <a  class="readmore_knapp" href="about.html" >Read more about us</a>
-          </section>
-        </article>
+        <img
+          src="https://placehold.co/400"
+          alt="Bilde fra placehold"
+          class="Picture_placehold_index"
+        />
+
+        <section class="About_our_company_text">
+          <h3 class="About_our_company">About our company</h3>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta
+          </p>
+          <a class="readmore_knapp" href="about.html">Read more about us</a>
+        </section>
       </div>
 
       <!--DEL 4 - Our services-->
-      <!--HVA SKJEDDE HER????-->
-      <a href="#OurServices" class="our_Serices_overskrift" id="OurServices">Our services</a>
-      <section class="Branding">
-        <div class="our_services">
-
+      <p class="Our_Service_Title">
+        <a href="#OurServices" class="our_Services_index" id="OurServices"
+          >Our Services</a
+        >
+      </p>
+      <div class="Branding">
+        <section class="our_services">
           <!--Branding 1-->
           <i class="fa-solid fa-users"></i>
-          <p class="branding">Branding</p>
-          <p class="tekst_branding">
+          <h4 class="branding">Branding</h4>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-        </div>
+        </section>
 
         <!--Branding 2-->
-        <div class="our_services">
+        <section class="our_services">
           <i class="fa-solid fa-cloud-arrow-up"></i>
-          <p class="branding">Branding</p>
-          <p class="tekst_branding">
+          <h4 class="branding">Branding</h4>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-        </div>
+        </section>
 
         <!--Branding 3-->
-        <div class="our_services">
+        <section class="our_services">
           <i class="fa-solid fa-code"></i>
-          <p class="branding">Branding</p>
-          <p class="tekst_branding">
+          <h4 class="branding">Branding</h4>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-        </div>
+        </section>
 
         <!--Branding 4-->
-        <div class="our_services">
+        <section class="our_services">
           <i class="fa-solid fa-wifi"></i>
-          <p class="branding">Branding</p>
-          <p class="tekst_branding">
+          <h4 class="branding">Branding</h4>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <!--Del 5 - newsletter-->
       <section class="newsletter">
         <h3 class="newsletter_tekst">Sign up for our newsletter</h3>
-        <section class="newsletter_knapp">
+        <div>
           <label for="input"></label>
-          <input type="text" placeholder="Iqra@hotmail.com" id="input">
+          <input type="text" placeholder="Iqra@hotmail.com" id="input" />
           <button id="newsletter_knapp" aria-label="Sign me up">
             Sign me up!
           </button>
           <a href="#"></a>
           <a href="#"></a>
-        </section>
+        </div>
       </section>
     </main>
 
     <!--Pil-->
-    <a href="/index.html" id="pilbtn" aria-label="Scroll to top">
+    <a href="#ikon_link" id="pilbtn" aria-label="Scroll to top">
       <i class="fa-solid fa-arrow-up"></i>
     </a>
 
     <!--Footer-->
     <footer class="footer">
-      <div class="Sosiale_medier">
-        <a href="index.html" id="logoFooter" aria-label="Home">
-          <img
-            src="img/logo1.png"
-            alt="Bilde av nettsidens logo"
-            class="logo_footer"
-          >
+      <a href="index.html" id="logoFooter" aria-label="Home">
+        <img
+          src="img/logo1.png"
+          alt="Bilde av nettsidens logo"
+          class="logo_footer"
+        />
+      </a>
+      <p class="tekst_footer">Copyright companyname 2023</p>
+      <nav class="Sosiale_medier_linker">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="Sosiale_medier_linker"
+        >
+          <i class="fa-brands fa-facebook footerIkoner"></i>
         </a>
-        <p class="tekst_footer">Copyright companyname 2023</p>
-        <nav class="Sosiale_medier_linker">
-          <a href="https://www.facebook.com/" target="_blank">
-            <i class="fa-brands fa-facebook footerIkoner"></i>
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <i class="fa-brands fa-instagram footerIkoner"></i>
-          </a>
-          <a href="https://no.linkedin.com/" target="_blank">
-            <i class="fa-brands fa-linkedin footerIkoner"></i>
-          </a>
-        </nav>
-      </div>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="Sosiale_medier_linker"
+        >
+          <i class="fa-brands fa-instagram footerIkoner"></i>
+        </a>
+        <a
+          href="https://no.linkedin.com/"
+          target="_blank"
+          class="Sosiale_medier_linker"
+        >
+          <i class="fa-brands fa-linkedin footerIkoner"></i>
+        </a>
+      </nav>
     </footer>
   </body>
 </html>

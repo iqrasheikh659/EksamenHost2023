@@ -3,9 +3,10 @@
 
 /**Gjelder alle sidene**/
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  max-width: 1600px;
 }
 
 header {
@@ -31,6 +32,11 @@ header {
 #ikon_link_contact {
   background-color: #e6bd43;
   padding: 10px;
+  font-weight: bold;
+}
+
+.subheading_index {
+  font-size: 1rem;
 }
 
 .meny {
@@ -43,9 +49,10 @@ header {
 .footer {
   background-color: #252525;
   display: flex;
-  flex-direction: column;
-  text-align: center;
   padding: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo_footer {
@@ -65,7 +72,6 @@ header {
 #ikon_link {
   font-weight: bold;
   border-bottom: 2px solid #e6bd43;
-  width: 10%;
 }
 
 #pilbtn {
@@ -75,23 +81,16 @@ header {
   background-color: black;
   color: white;
   padding: 15px;
-  
 }
 /**Gjelder alle sidene**/
 
 /**Ikoner for service**/
 .fa-users::before {
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
-.fa-cloud-arrow-up::before {
-  font-size: 1.5rem;
-}
-
-.fa-code::before {
-  font-size: 1.5rem;
-}
-
+.fa-cloud-arrow-up::before,
+.fa-code::before,
 .fa-wifi::before {
   font-size: 1.5rem;
 }
@@ -125,9 +124,8 @@ header {
 .Overskrift {
   position: absolute;
   top: 14%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
-  
 }
 
 .tekst_del2 {
@@ -145,7 +143,7 @@ header {
   padding: 1rem;
   text-decoration: none;
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 3rem;
@@ -158,14 +156,16 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem;
 }
 /** DEL 2 - Enganging subheading**/
 
 /**DEL 3 - About our company**/
-.About_our_company {
-  font-weight: 800;
-  font-size: large;
+
+.Branding {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
 }
 
 .Picture_placehold_index {
@@ -178,6 +178,7 @@ header {
   text-align: center;
   margin-top: 3rem;
   padding: 3rem;
+  align-items: center;
 }
 
 .readmore_knapp {
@@ -187,12 +188,23 @@ header {
   margin: 0 auto;
   padding: 1rem;
 }
-.our_Serices_overskrift {
+
+.Our_Service_Title {
   text-align: center;
+}
+
+.our_Services_index {
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
+
+.our_services_about {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
 .our_services {
   display: flex;
   flex-direction: column;
@@ -200,14 +212,6 @@ header {
   margin: 2rem;
 }
 
-.tekst_branding {
-  position: relative;
-  top: -20px;
-}
-
-.branding {
-  font-weight: bold;
-}
 /**DEL 3 - About our company**/
 
 /**-Del 5 - newsletter**/
@@ -225,10 +229,6 @@ header {
   padding: 1.5rem;
 }
 
-/**Google kart**/
-.GoogleKart {
-  width: 100%;
-}
 /**Del 5 - newsletter**/
 
 /**PORTOFOLIO**/
@@ -245,7 +245,7 @@ header {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 1.5rem;
 }
 
 .bilde_kontor_portfolio {
@@ -258,11 +258,12 @@ header {
 .explore_tittel {
   border-bottom: 5px solid #e6bd43;
   width: 90%;
-  font-size: 25px;
   margin-left: 1rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
 }
 
-.explore_button {
+.explore_button_Wrapper {
   display: grid;
   grid-template-columns: auto auto;
   width: fit-content;
@@ -270,28 +271,13 @@ header {
   gap: 1rem;
 }
 
-.explore_branding {
+.explore_button {
   text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-  border: 1px solid black;
-  color: black;
-}
-.explore_design {
-  text-decoration: none;
-  font-weight: bold;
   padding: 10px;
   border: 1px solid black;
   color: black;
 }
 
-.explore_development {
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-  border: 1px solid black;
-  color: black;
-}
 /**DEL 2 - Explore**/
 
 /**DEL 4 - Branding, design & development**/
@@ -299,7 +285,8 @@ header {
   margin-left: 1rem;
   border-bottom: 5px solid #e6bd43;
   width: 90%;
-  font-size: 25px;
+  font-size: 1.5rem;
+  margin-right: auto;
 }
 
 .jobs_wrapper_branding,
@@ -308,11 +295,13 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .job_card_branding,
 .job_card_design,
-.job_card_development {
+.job_card_development,
+.job_card_branding_last {
   padding-top: 2rem;
   min-width: 200px;
   max-width: 350px;
@@ -368,7 +357,6 @@ header {
   font-weight: bold;
   background-color: #e6bd43;
   padding: 10px;
-
   color: black;
 }
 /**DEL 1 - bakgrunnsbilde & tekst**/
@@ -384,37 +372,31 @@ header {
 }
 
 .kunder_tekst {
-  font-weight: bolder;
-}
-.logo_klient {
-  width: 10rem;
+  padding-top: 2rem;
 }
 /**Del 5 - clients**/
 
 /**Contact us**/
-.send_us_a_message {
-  font-weight: bold;
-}
 
 .contactus_del2 {
   margin-left: 1rem;
+  margin-top: 3rem;
 }
 
 .contactus_info {
-  margin-left: 1rem;
   margin: 1rem;
 }
 
 .contactWrapper {
   background-color: rgb(227, 225, 225);
+  padding-bottom: 2rem;
 }
 
 .contact_us {
   margin: 0rem;
   text-align: center;
-  font-weight: bolder;
   padding: 3rem;
-  font-size: 30px;
+  font-size: 1.2rem;
 }
 /**Contact us**/
 
@@ -437,14 +419,9 @@ header {
   padding: 0.5rem;
   display: flex;
   border: none;
-}
-/**Message**/
-
-/**Contact Information**/
-.contact_information {
   font-weight: bold;
 }
-/**Contact Information**/
+/**Message**/
 
 /**Adresse**/
 .adresse {
@@ -489,20 +466,9 @@ header {
     width: 25%;
   }
 
-  #ikon_link_contact {
-    font-weight: bold;
-  }
-
   #ikon_link_contact:hover {
-    background-color: black;
+    background-color: #252525;
     color: #e6bd43;
-  }
-
-  .Sosiale_medier {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 2rem;
   }
 
   .tekst_footer {
@@ -510,7 +476,7 @@ header {
   }
 
   .Sosiale_medier_linker {
-    margin: 1rem;
+    text-decoration: none;
   }
   /**Gjelder alle sidene**/
 
@@ -523,7 +489,6 @@ header {
     background-repeat: no-repeat;
     display: block;
     width: 100%;
-    height: 10%;
   }
 
   .TekstMedVideo {
@@ -539,36 +504,36 @@ header {
   .Overskrift {
     top: 30%;
     font-size: 3rem;
+    white-space: nowrap;
   }
 
   .tekst_del2 {
-    top: 50%;
+    top: 46%;
   }
 
   .service_knapp {
     font-weight: 600;
-    
   }
 
   .service_knapp:hover {
-    background-color: black;
+    background-color: #252525;
     color: #e6bd43;
   }
-  /**Bildet**/
 
-  /**DEL 3 - About our company**/
-  
   .About_our_company_text {
     text-align: justify;
   }
 
   /**DEL 3 - About our company**/
+  .info_del3 {
+    flex-direction: row;
+  }
 
-  /**DEL 4 - Our services**/
-  .our_Serices_overskrift {
+  .our_Services_index {
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    margin-top: 3rem;
   }
 
   .Picture_placehold_index {
@@ -579,16 +544,15 @@ header {
   }
   .About_our_company {
     font-weight: 800;
-    font-size: large;
+    font-size: 2rem;
     margin-top: 3rem;
   }
 
   .Branding {
     display: flex;
+    flex-direction: row;
   }
-  /**DEL 4 - Our services**/
 
-  /**Del 5 - newsletter**/
   .newsletter_tekst {
     font-size: 2rem;
   }
@@ -600,20 +564,19 @@ header {
   }
 
   .readmore_knapp:hover {
-    background-color: black;
+    background-color: #252525;
     color: #e6bd43;
+  }
+
+  #newsletter_knapp {
+    padding: 1rem;
   }
 
   #newsletter_knapp:hover {
-    background-color: black;
+    background-color: #252525;
     color: #e6bd43;
   }
 
-  /**INDEX**/
-
-  /**ABOUT**/
-
-  /**DEL 1 - bakgrunnsbilde & tekst**/
   .Bakgrunn_bildeinfo {
     opacity: 1;
   }
@@ -629,17 +592,27 @@ header {
     padding: 2rem;
   }
 
+  .contact_us {
+    font-size: 1.8rem;
+  }
+
   .Alle_logoer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .KleintLogoSection {
+    display: flex;
+    gap: 2rem;
   }
 
   .kunder {
     padding: 3rem;
   }
 
-  .explore_button {
+  .explore_button_Wrapper {
     display: block;
   }
 
@@ -651,7 +624,7 @@ header {
   }
 
   #aboutus_button:hover {
-    background-color: black;
+    background-color: #252525;
     color: #e6bd43;
   }
 
@@ -660,16 +633,12 @@ header {
   .contactAndInformation {
     display: flex;
     flex-direction: row;
-  }
-
-  .contactus_del2 {
-    margin-left: 10rem;
-    margin-top: 0rem;
+    align-items: baseline;
+    justify-content: space-around;
   }
 
   .kunder {
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 2rem;
   }
 
   #knapp_message {
@@ -677,57 +646,72 @@ header {
   }
 
   #knapp_message:hover {
-    background-color: black;
+    background-color: #252525;
     color: #e6bd43;
   }
 
-  /**ABOUT**/
-
-  /**PORTOFOLIO**/
-
-  /** DEL 1 - portofolio**/
+  #input {
+    padding: 1rem;
+  }
 
   .bilde_kontor_portfolio {
     opacity: 0.5;
     height: 20rem;
   }
 
-  /**DEL 2 - Explore**/
+  .our_services_about {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
 
-
-  .explore_branding:hover,
-  .explore_design:hover,
-  .explore_development:hover {
-    background-color: black;
+  .explore_button:hover {
+    background-color: #252525;
     color: #e6bd43;
   }
 
-  /**Del 3 - Branding, design & development**/
   .jobs_wrapper_branding {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: normal;
   }
 
-  .jobs_wrapper_picture4{
+  .jobs_wrapper_picture4 {
     margin-left: 1rem;
   }
 
+  .subheading_index {
+    font-size: 2rem;
+  }
+
+  .job_pictures_branding:hover,
   .job_pictures4_branding:hover,
   .job_pictures_design:hover,
   .job_pictures_development:hover {
     transform: scale(1.1);
+    transition: transform 2s ease-in-out;
+  }
+
+  .all_jobs_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .job_pictures4_branding {
     padding-top: 2rem;
     min-width: 200px;
     max-width: 445px;
+    flex-grow: 1;
+  }
+
+  .job_card_branding_last {
+    margin-left: 5rem;
   }
 
   .jobs_wrapper_design {
     flex-direction: row;
     justify-content: space-around;
+    gap: 1rem;
   }
 
   .jobs_wrapper_development {
@@ -738,5 +722,17 @@ header {
 
   .job_pictures_development {
     width: 450px;
+  }
+
+  .service_knapp {
+    top: 58%;
+  }
+
+  .portofolio {
+    font-size: 2.5rem;
+  }
+
+  .footer {
+    flex-direction: row;
   }
 }
