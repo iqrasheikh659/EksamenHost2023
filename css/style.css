@@ -480,6 +480,10 @@ header {
   .Sosiale_medier_linker {
     text-decoration: none;
   }
+
+  .footer {
+    flex-direction: row;
+  }
   /**Gjelder alle sidene**/
 
   /**INDEX**/
@@ -735,7 +739,11 @@ header {
     font-size: 2.5rem;
   }
 
-  .footer {
-    flex-direction: row;
-  }
+#name_contactus{
+  width: 70%;
+}
+
+#subject_contactus{
+  width: 70%;
+}
 }
